@@ -3,7 +3,7 @@
   (title "Rooted Forest (6/29)")
   (tux
     (bonus "fireflower")
-    (fireflowers 9)
+    (fireflowers 10)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
