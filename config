@@ -20,8 +20,8 @@
     (fullscreen_width 0)
     (fullscreen_height 0)
     (fullscreen_refresh_rate 0)
-    (window_width 1846)
-    (window_height 1136)
+    (window_width 2240)
+    (window_height 1344)
     (window_resizable #t)
     (aspect_width 0)
     (aspect_height 0)
@@ -30,8 +30,8 @@
   (audio
     (sound_enabled #t)
     (music_enabled #t)
-    (sound_volume 30)
-    (music_volume 10)
+    (sound_volume 0)
+    (music_volume 0)
   )
   (control
     (keymap
