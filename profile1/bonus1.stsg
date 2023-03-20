@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island I (1/22)")
+  (title "Bonus Island I (2/22)")
   (tux
-    (bonus "none")
-    (fireflowers 0)
+    (bonus "fireflower")
+    (fireflowers 9999)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 136)
+    (coins 9999)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -106,7 +106,16 @@
           )
           ("thompson-level1.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 24.41982)
+              (secrets-found-total 0)
+              (badguys-killed-total 15)
+              (coins-collected-total 19)
+              (badguys-killed 0)
+            )
+            (solved #t)
           )
           ("torfi-level2.stl"
             (perfect #f)
@@ -114,9 +123,9 @@
           )
         )
         ("tux"
-          (y 5)
-          (x 33)
-          (back "west")
+          (y 22)
+          (x 37)
+          (back "north")
         )
         ("tilemaps"
           ("snow"
