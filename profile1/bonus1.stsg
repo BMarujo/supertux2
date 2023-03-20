@@ -1,6 +1,6 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island I (2/22)")
+  (title "Bonus Island I (5/22)")
   (tux
     (bonus "fireflower")
     (fireflowers 9999)
@@ -30,7 +30,16 @@
           )
           ("matr1x-level2.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 3)
+              (secrets-found 0)
+              (time-needed 253.0855)
+              (secrets-found-total 1)
+              (badguys-killed-total 70)
+              (coins-collected-total 69)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("torfi-level3.stl"
             (perfect #f)
@@ -58,7 +67,16 @@
           )
           ("thompson-level2.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 41)
+              (secrets-found 1)
+              (time-needed 46.75391)
+              (secrets-found-total 2)
+              (badguys-killed-total 38)
+              (coins-collected-total 231)
+              (badguys-killed 17)
+            )
+            (solved #t)
           )
           ("torfi-level1.stl"
             (perfect #f)
@@ -98,7 +116,16 @@
           )
           ("matr1x-level1.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 23)
+              (secrets-found 1)
+              (time-needed 88.48222)
+              (secrets-found-total 4)
+              (badguys-killed-total 50)
+              (coins-collected-total 217)
+              (badguys-killed 19)
+            )
+            (solved #t)
           )
           ("bonus-level4.stl"
             (perfect #f)
@@ -123,9 +150,9 @@
           )
         )
         ("tux"
-          (y 22)
-          (x 37)
-          (back "north")
+          (y 20)
+          (x 20)
+          (back "east")
         )
         ("tilemaps"
           ("snow"
