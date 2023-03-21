@@ -1,11 +1,11 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island I (5/22)")
+  (title "Bonus Island I (8/22)")
   (tux
-    (bonus "fireflower")
-    (fireflowers 9999)
+    (bonus "airflower")
+    (fireflowers 0)
     (iceflowers 0)
-    (airflowers 0)
+    (airflowers 9999)
     (earthflowers 0)
     (coins 9999)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
@@ -84,7 +84,16 @@
           )
           ("matr1x-level3.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 14)
+              (secrets-found 0)
+              (time-needed 164.2141)
+              (secrets-found-total 2)
+              (badguys-killed-total 13)
+              (coins-collected-total 38)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("abednego-level3.stl"
             (perfect #f)
@@ -100,7 +109,16 @@
           )
           ("bonus-level5.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 305.8891)
+              (secrets-found-total 1)
+              (badguys-killed-total 74)
+              (coins-collected-total 404)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("abednego-level2.stl"
             (perfect #f)
@@ -112,7 +130,16 @@
           )
           ("bonus-level2.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 11)
+              (secrets-found 0)
+              (time-needed 139.1352)
+              (secrets-found-total 1)
+              (badguys-killed-total 40)
+              (coins-collected-total 78)
+              (badguys-killed 10)
+            )
+            (solved #t)
           )
           ("matr1x-level1.stl"
             (perfect #f)
@@ -150,9 +177,9 @@
           )
         )
         ("tux"
-          (y 20)
-          (x 20)
-          (back "east")
+          (y 41)
+          (x 32)
+          (back "north")
         )
         ("tilemaps"
           ("snow"
