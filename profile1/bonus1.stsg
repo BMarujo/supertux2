@@ -1,11 +1,11 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island I (8/22)")
+  (title "Bonus Island I (14/22)")
   (tux
-    (bonus "airflower")
-    (fireflowers 0)
+    (bonus "fireflower")
+    (fireflowers 9999)
     (iceflowers 0)
-    (airflowers 9999)
+    (airflowers 0)
     (earthflowers 0)
     (coins 9999)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
@@ -43,11 +43,29 @@
           )
           ("torfi-level3.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 15)
+              (secrets-found 0)
+              (time-needed 32.54949)
+              (secrets-found-total 1)
+              (badguys-killed-total 18)
+              (coins-collected-total 48)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("bonus-level3.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 8)
+              (secrets-found 0)
+              (time-needed 172.7788)
+              (secrets-found-total 1)
+              (badguys-killed-total 86)
+              (coins-collected-total 114)
+              (badguys-killed 15)
+            )
+            (solved #t)
           )
           ("wansti-level4.stl"
             (perfect #f)
@@ -63,7 +81,16 @@
           )
           ("abednego-level1.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 52)
+              (secrets-found 0)
+              (time-needed 281.5653)
+              (secrets-found-total 1)
+              (badguys-killed-total 78)
+              (coins-collected-total 182)
+              (badguys-killed 14)
+            )
+            (solved #t)
           )
           ("thompson-level2.stl"
             (perfect #f)
@@ -80,7 +107,16 @@
           )
           ("torfi-level1.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 7)
+              (secrets-found 0)
+              (time-needed 28.84464)
+              (secrets-found-total 5)
+              (badguys-killed-total 25)
+              (coins-collected-total 50)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("matr1x-level3.stl"
             (perfect #f)
@@ -156,7 +192,16 @@
           )
           ("bonus-level4.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 28)
+              (secrets-found 1)
+              (time-needed 284.4181)
+              (secrets-found-total 2)
+              (badguys-killed-total 26)
+              (coins-collected-total 70)
+              (badguys-killed 14)
+            )
+            (solved #t)
           )
           ("thompson-level1.stl"
             (perfect #f)
@@ -173,13 +218,22 @@
           )
           ("torfi-level2.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 52)
+              (secrets-found 1)
+              (time-needed 42.50908)
+              (secrets-found-total 3)
+              (badguys-killed-total 19)
+              (coins-collected-total 87)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
         )
         ("tux"
-          (y 41)
-          (x 32)
-          (back "north")
+          (y 35)
+          (x 15)
+          (back "west")
         )
         ("tilemaps"
           ("snow"

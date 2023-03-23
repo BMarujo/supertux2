@@ -13,6 +13,11 @@
   )
   (state
     (underground #f)
+    (fitr_up #t)
+    (ambient_r 1)
+    (ambient_g 1)
+    (ghostforest #f)
+    (ambient_b 1)
     ("worlds"
       ("/levels/world1/worldmap.stwm"
         ("sprite-changes"
@@ -96,17 +101,8 @@
             )
             (perfect #t)
           )
-          ("crystal_mine.stl"
-            (solved #t)
-            ("statistics"
-              (coins-collected 108)
-              (secrets-found 0)
-              (time-needed 621.9774)
-              (secrets-found-total 2)
-              (badguys-killed 39)
-              (coins-collected-total 215)
-              (badguys-killed-total 75)
-            )
+          ("between_glaciers.stl"
+            (solved #f)
             (perfect #f)
           )
           ("entrance_cave.stl"
@@ -161,9 +157,18 @@
             )
             (perfect #f)
           )
-          ("between_glaciers.stl"
-            (solved #f)
-            (perfect #f)
+          ("intro.stl"
+            (solved #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 1.949998)
+              (secrets-found-total 0)
+              (badguys-killed 0)
+              (coins-collected-total 0)
+              (badguys-killed-total 0)
+            )
+            (perfect #t)
           )
           ("into_stars.stl"
             (solved #t)
@@ -217,18 +222,18 @@
             )
             (perfect #f)
           )
-          ("intro.stl"
+          ("frozen_bridge.stl"
             (solved #t)
             ("statistics"
-              (coins-collected 0)
+              (coins-collected 16)
               (secrets-found 0)
-              (time-needed 1.949998)
+              (time-needed 97.06187)
               (secrets-found-total 0)
-              (badguys-killed 0)
-              (coins-collected-total 0)
-              (badguys-killed-total 0)
+              (badguys-killed 6)
+              (coins-collected-total 69)
+              (badguys-killed-total 46)
             )
-            (perfect #t)
+            (perfect #f)
           )
           ("icy_valley.stl"
             (solved #t)
@@ -399,16 +404,16 @@
             )
             (perfect #t)
           )
-          ("frozen_bridge.stl"
+          ("crystal_mine.stl"
             (solved #t)
             ("statistics"
-              (coins-collected 16)
+              (coins-collected 108)
               (secrets-found 0)
-              (time-needed 97.06187)
-              (secrets-found-total 0)
-              (badguys-killed 6)
-              (coins-collected-total 69)
-              (badguys-killed-total 46)
+              (time-needed 621.9774)
+              (secrets-found-total 2)
+              (badguys-killed 39)
+              (coins-collected-total 215)
+              (badguys-killed-total 75)
             )
             (perfect #f)
           )
@@ -465,10 +470,10 @@
           ("Land_foreground_4"
             (alpha 1)
           )
-          ("ocean"
+          ("underground_wall"
             (alpha 1)
           )
-          ("underground_wall"
+          ("pathing"
             (alpha 1)
           )
           ("castle"
@@ -477,7 +482,7 @@
           ("front_waves"
             (alpha 1)
           )
-          ("pathing"
+          ("ocean"
             (alpha 1)
           )
           ("fitr_down"
@@ -963,11 +968,6 @@
         )
       )
     )
-    (ambient_b 1)
-    (ambient_g 1)
-    (ghostforest #f)
-    (ambient_r 1)
-    (fitr_up #t)
     (fitr_down #t)
     (iv_secret #f)
   )
