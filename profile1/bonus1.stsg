@@ -1,11 +1,11 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island I (16/22)")
+  (title "Bonus Island I (18/22)")
   (tux
-    (bonus "airflower")
-    (fireflowers 0)
+    (bonus "fireflower")
+    (fireflowers 9999)
     (iceflowers 0)
-    (airflowers 9999)
+    (airflowers 0)
     (earthflowers 0)
     (coins 9999)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
@@ -77,7 +77,16 @@
           )
           ("wansti-level1.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 15)
+              (secrets-found 0)
+              (time-needed 72.40287)
+              (secrets-found-total 3)
+              (badguys-killed-total 34)
+              (coins-collected-total 384)
+              (badguys-killed 8)
+            )
+            (solved #t)
           )
           ("abednego-level1.stl"
             (perfect #f)
@@ -180,7 +189,16 @@
           )
           ("abednego-level4.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 20)
+              (secrets-found 0)
+              (time-needed 54.91358)
+              (secrets-found-total 0)
+              (badguys-killed-total 42)
+              (coins-collected-total 36)
+              (badguys-killed 8)
+            )
+            (solved #t)
           )
           ("bonus-level2.stl"
             (perfect #f)
@@ -249,9 +267,9 @@
           )
         )
         ("tux"
-          (y 40)
-          (x 16)
-          (back "west")
+          (y 16)
+          (x 53)
+          (back "north")
         )
         ("tilemaps"
           ("snow"
