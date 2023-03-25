@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island I (18/22)")
+  (title "Bonus Island I (22/22)")
   (tux
-    (bonus "fireflower")
-    (fireflowers 9999)
+    (bonus "none")
+    (fireflowers 0)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 9999)
+    (coins 7523)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -69,11 +69,29 @@
           )
           ("wansti-level4.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 8)
+              (secrets-found 0)
+              (time-needed 76.94769)
+              (secrets-found-total 2)
+              (badguys-killed-total 55)
+              (coins-collected-total 72)
+              (badguys-killed 15)
+            )
+            (solved #t)
           )
           ("wansti-level3.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 43)
+              (secrets-found 0)
+              (time-needed 155.1545)
+              (secrets-found-total 0)
+              (badguys-killed-total 34)
+              (coins-collected-total 104)
+              (badguys-killed 7)
+            )
+            (solved #t)
           )
           ("wansti-level1.stl"
             (perfect #f)
@@ -155,11 +173,29 @@
           )
           ("wansti-level5.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 23)
+              (secrets-found 0)
+              (time-needed 97.91683)
+              (secrets-found-total 0)
+              (badguys-killed-total 70)
+              (coins-collected-total 56)
+              (badguys-killed 34)
+            )
+            (solved #t)
           )
           ("wansti-level2.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 5)
+              (secrets-found 0)
+              (time-needed 109.0764)
+              (secrets-found-total 0)
+              (badguys-killed-total 59)
+              (coins-collected-total 12)
+              (badguys-killed 22)
+            )
+            (solved #t)
           )
           ("bonus-level5.stl"
             (perfect #f)
@@ -267,8 +303,8 @@
           )
         )
         ("tux"
-          (y 16)
-          (x 53)
+          (y 8)
+          (x 35)
           (back "north")
         )
         ("tilemaps"
