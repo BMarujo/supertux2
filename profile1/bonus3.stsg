@@ -3,7 +3,7 @@
   (title "Bonus Island III (1/44)")
   (tux
     (bonus "fireflower")
-    (fireflowers 9999)
+    (fireflowers 9998)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
