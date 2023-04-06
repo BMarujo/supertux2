@@ -1,9 +1,9 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island II (4/28)")
+  (title "Bonus Island II (7/28)")
   (tux
-    (bonus "none")
-    (fireflowers 0)
+    (bonus "fireflower")
+    (fireflowers 9999)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
@@ -87,7 +87,16 @@
           )
           ("level21.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 26)
+              (secrets-found 0)
+              (time-needed 59.44339)
+              (secrets-found-total 1)
+              (badguys-killed-total 20)
+              (coins-collected-total 50)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("level7.stl"
             (perfect #f)
@@ -132,7 +141,16 @@
           )
           ("level13.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 23)
+              (secrets-found 0)
+              (time-needed 30.04459)
+              (secrets-found-total 0)
+              (badguys-killed-total 19)
+              (coins-collected-total 30)
+              (badguys-killed 11)
+            )
+            (solved #t)
           )
           ("level18.stl"
             (perfect #f)
@@ -153,7 +171,16 @@
           )
           ("level3.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 60)
+              (secrets-found 0)
+              (time-needed 51.8687)
+              (secrets-found-total 0)
+              (badguys-killed-total 51)
+              (coins-collected-total 245)
+              (badguys-killed 12)
+            )
+            (solved #t)
           )
           ("level16.stl"
             (perfect #f)
@@ -165,8 +192,8 @@
           )
         )
         ("tux"
-          (y 15)
-          (x 26)
+          (y 12)
+          (x 17)
           (back "west")
         )
         ("tilemaps"
