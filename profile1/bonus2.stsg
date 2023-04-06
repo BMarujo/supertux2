@@ -1,9 +1,9 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island II (3/28)")
+  (title "Bonus Island II (4/28)")
   (tux
-    (bonus "fireflower")
-    (fireflowers 9999)
+    (bonus "none")
+    (fireflowers 0)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
@@ -37,7 +37,16 @@
           )
           ("level2.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 103)
+              (secrets-found 0)
+              (time-needed 247.4908)
+              (secrets-found-total 0)
+              (badguys-killed-total 69)
+              (coins-collected-total 221)
+              (badguys-killed 51)
+            )
+            (solved #t)
           )
           ("level17.stl"
             (perfect #f)
