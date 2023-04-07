@@ -1,9 +1,9 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island III (1/44)")
+  (title "Bonus Island III (6/44)")
   (tux
     (bonus "fireflower")
-    (fireflowers 9998)
+    (fireflowers 9999)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
@@ -118,7 +118,16 @@
           )
           ("hilly_landscape.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 11)
+              (secrets-found 0)
+              (time-needed 39.14922)
+              (secrets-found-total 1)
+              (badguys-killed-total 31)
+              (coins-collected-total 74)
+              (badguys-killed 8)
+            )
+            (solved #t)
           )
           ("glaciers.stl"
             (perfect #f)
@@ -130,11 +139,29 @@
           )
           ("another_cold_day.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 9)
+              (secrets-found 0)
+              (time-needed 33.86943)
+              (secrets-found-total 1)
+              (badguys-killed-total 40)
+              (coins-collected-total 90)
+              (badguys-killed 1)
+            )
+            (solved #t)
           )
           ("crystalfields.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 16)
+              (secrets-found 1)
+              (time-needed 33.31446)
+              (secrets-found-total 1)
+              (badguys-killed-total 33)
+              (coins-collected-total 42)
+              (badguys-killed 25)
+            )
+            (solved #t)
           )
           ("sever_escape.stl"
             (perfect #f)
@@ -178,7 +205,16 @@
           )
           ("hanging roof.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 6)
+              (secrets-found 0)
+              (time-needed 48.43384)
+              (secrets-found-total 0)
+              (badguys-killed-total 50)
+              (coins-collected-total 10)
+              (badguys-killed 49)
+            )
+            (solved #t)
           )
           ("One Night in the Sky.stl"
             (perfect #f)
@@ -194,7 +230,16 @@
           )
           ("crystal.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 1)
+              (secrets-found 0)
+              (time-needed 197.7378)
+              (secrets-found-total 0)
+              (badguys-killed-total 49)
+              (coins-collected-total 8)
+              (badguys-killed 10)
+            )
+            (solved #t)
           )
           ("cavern_v2.stl"
             (perfect #f)
@@ -202,9 +247,9 @@
           )
         )
         ("tux"
-          (y 42)
-          (x 18)
-          (back "south")
+          (y 27)
+          (x 17)
+          (back "east")
         )
         ("tilemaps"
           ("Decorations"
