@@ -1,9 +1,9 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island III (6/44)")
+  (title "Bonus Island III (13/44)")
   (tux
     (bonus "fireflower")
-    (fireflowers 9999)
+    (fireflowers 3)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
@@ -114,7 +114,16 @@
           )
           ("three_frosty_icebergs.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 16)
+              (secrets-found 0)
+              (time-needed 61.55831)
+              (secrets-found-total 2)
+              (badguys-killed-total 24)
+              (coins-collected-total 76)
+              (badguys-killed 9)
+            )
+            (solved #t)
           )
           ("hilly_landscape.stl"
             (perfect #f)
@@ -134,8 +143,17 @@
             (solved #f)
           )
           ("its_getting_unfinishable.stl"
-            (perfect #f)
-            (solved #f)
+            (perfect #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 15.49515)
+              (secrets-found-total 0)
+              (badguys-killed-total 0)
+              (coins-collected-total 0)
+              (badguys-killed 0)
+            )
+            (solved #t)
           )
           ("another_cold_day.stl"
             (perfect #f)
@@ -193,7 +211,16 @@
           )
           ("cave_run.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 37)
+              (secrets-found 0)
+              (time-needed 103.2116)
+              (secrets-found-total 2)
+              (badguys-killed-total 32)
+              (coins-collected-total 77)
+              (badguys-killed 29)
+            )
+            (solved #t)
           )
           ("snowy_hill.stl"
             (perfect #f)
@@ -201,7 +228,16 @@
           )
           ("over_the_ocean.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 44)
+              (secrets-found 0)
+              (time-needed 62.18828)
+              (secrets-found-total 1)
+              (badguys-killed-total 28)
+              (coins-collected-total 126)
+              (badguys-killed 23)
+            )
+            (solved #t)
           )
           ("hanging roof.stl"
             (perfect #f)
@@ -218,11 +254,29 @@
           )
           ("One Night in the Sky.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 65)
+              (secrets-found 0)
+              (time-needed 104.7116)
+              (secrets-found-total 2)
+              (badguys-killed-total 17)
+              (coins-collected-total 100)
+              (badguys-killed 15)
+            )
+            (solved #t)
           )
           ("crystal sunset.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 11)
+              (secrets-found 0)
+              (time-needed 53.74363)
+              (secrets-found-total 1)
+              (badguys-killed-total 80)
+              (coins-collected-total 38)
+              (badguys-killed 71)
+            )
+            (solved #t)
           )
           ("but_no_one_can_stop_it.stl"
             (perfect #f)
@@ -243,12 +297,21 @@
           )
           ("cavern_v2.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 34.84439)
+              (secrets-found-total 3)
+              (badguys-killed-total 7)
+              (coins-collected-total 36)
+              (badguys-killed 0)
+            )
+            (solved #t)
           )
         )
         ("tux"
-          (y 27)
-          (x 17)
+          (y 13)
+          (x 14)
           (back "east")
         )
         ("tilemaps"
