@@ -1,6 +1,6 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island II (7/28)")
+  (title "Bonus Island II (15/28)")
   (tux
     (bonus "fireflower")
     (fireflowers 9999)
@@ -25,7 +25,16 @@
           )
           ("level8.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 50)
+              (secrets-found 0)
+              (time-needed 103.6616)
+              (secrets-found-total 1)
+              (badguys-killed-total 41)
+              (coins-collected-total 133)
+              (badguys-killed 34)
+            )
+            (solved #t)
           )
           ("level9.stl"
             (perfect #f)
@@ -71,7 +80,16 @@
           )
           ("level14.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 21)
+              (secrets-found 0)
+              (time-needed 37.61928)
+              (secrets-found-total 0)
+              (badguys-killed-total 38)
+              (coins-collected-total 56)
+              (badguys-killed 10)
+            )
+            (solved #t)
           )
           ("level5.stl"
             (perfect #f)
@@ -108,15 +126,42 @@
           )
           ("level23.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 3)
+              (secrets-found 0)
+              (time-needed 40.22918)
+              (secrets-found-total 0)
+              (badguys-killed-total 0)
+              (coins-collected-total 3)
+              (badguys-killed 0)
+            )
+            (solved #t)
           )
           ("level11.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 19)
+              (secrets-found 0)
+              (time-needed 147.1748)
+              (secrets-found-total 0)
+              (badguys-killed-total 40)
+              (coins-collected-total 152)
+              (badguys-killed 3)
+            )
+            (solved #t)
           )
           ("level20.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 13)
+              (secrets-found 0)
+              (time-needed 90.70213)
+              (secrets-found-total 1)
+              (badguys-killed-total 17)
+              (coins-collected-total 23)
+              (badguys-killed 3)
+            )
+            (solved #t)
           )
           ("level24.stl"
             (perfect #f)
@@ -154,7 +199,16 @@
           )
           ("level18.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 4)
+              (secrets-found 0)
+              (time-needed 110.7713)
+              (secrets-found-total 0)
+              (badguys-killed-total 28)
+              (coins-collected-total 61)
+              (badguys-killed 7)
+            )
+            (solved #t)
           )
           ("level1.stl"
             (perfect #f)
@@ -184,16 +238,34 @@
           )
           ("level16.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 27)
+              (secrets-found 0)
+              (time-needed 55.31856)
+              (secrets-found-total 2)
+              (badguys-killed-total 68)
+              (coins-collected-total 118)
+              (badguys-killed 52)
+            )
+            (solved #t)
           )
           ("level15.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 17)
+              (secrets-found 0)
+              (time-needed 93.35702)
+              (secrets-found-total 1)
+              (badguys-killed-total 52)
+              (coins-collected-total 58)
+              (badguys-killed 18)
+            )
+            (solved #t)
           )
         )
         ("tux"
-          (y 12)
-          (x 17)
+          (y 27)
+          (x 28)
           (back "west")
         )
         ("tilemaps"
