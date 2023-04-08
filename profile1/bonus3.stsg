@@ -1,6 +1,6 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island III (27/44)")
+  (title "Bonus Island III (35/44)")
   (tux
     (bonus "fireflower")
     (fireflowers 9999)
@@ -21,7 +21,16 @@
           )
           ("light_in_the_darkness.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 4)
+              (secrets-found 0)
+              (time-needed 83.9974)
+              (secrets-found-total 2)
+              (badguys-killed-total 9)
+              (coins-collected-total 57)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("entering_castle.stl"
             (perfect #f)
@@ -120,7 +129,16 @@
           )
           ("cant_climb_higher_clouds.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 9)
+              (secrets-found 0)
+              (time-needed 28.94963)
+              (secrets-found-total 0)
+              (badguys-killed-total 38)
+              (coins-collected-total 42)
+              (badguys-killed 9)
+            )
+            (solved #t)
           )
           ("deep_deeper.stl"
             (perfect #f)
@@ -201,11 +219,29 @@
           )
           ("castle_light+darkness-v3.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 115.0461)
+              (secrets-found-total 1)
+              (badguys-killed-total 8)
+              (coins-collected-total 15)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
           ("dungeon_island/dungeon1.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 26)
+              (secrets-found 0)
+              (time-needed 164.3641)
+              (secrets-found-total 0)
+              (badguys-killed-total 9)
+              (coins-collected-total 28)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
           ("antarctic_rain.stl"
             (perfect #f)
@@ -308,19 +344,55 @@
           )
           ("shakespeare-rain.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 38)
+              (secrets-found 0)
+              (time-needed 41.95411)
+              (secrets-found-total 1)
+              (badguys-killed-total 12)
+              (coins-collected-total 58)
+              (badguys-killed 12)
+            )
+            (solved #t)
           )
           ("shakespeare-rain_antarctic.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 40)
+              (secrets-found 0)
+              (time-needed 47.30889)
+              (secrets-found-total 1)
+              (badguys-killed-total 12)
+              (coins-collected-total 58)
+              (badguys-killed 12)
+            )
+            (solved #t)
           )
           ("dungeon_island/dungeon2.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 13)
+              (secrets-found 0)
+              (time-needed 170.8439)
+              (secrets-found-total 2)
+              (badguys-killed-total 10)
+              (coins-collected-total 159)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("dungeon_island/going_down.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 127)
+              (secrets-found 0)
+              (time-needed 103.6166)
+              (secrets-found-total 1)
+              (badguys-killed-total 6)
+              (coins-collected-total 204)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("coconut_fortress.stl"
             (perfect #f)
@@ -436,9 +508,9 @@
           )
         )
         ("tux"
-          (y 36)
-          (x 61)
-          (back "east")
+          (y 44)
+          (x 63)
+          (back "west")
         )
         ("tilemaps"
           ("Decorations"
