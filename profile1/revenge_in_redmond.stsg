@@ -1,0 +1,119 @@
+(supertux-savegame
+  (version 1)
+  (title "Revenge in Redmond (6/6)")
+  (tux
+    (bonus "none")
+    (fireflowers 0)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 295)
+    (worldmap-sprite "images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    ("worlds"
+      ("/levels/revenge_in_redmond/worldmap.stwm"
+        ("levels"
+          ("who_is_dawn.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 34)
+              (secrets-found 0)
+              (time-needed 63.50823)
+              (secrets-found-total 1)
+              (badguys-killed-total 22)
+              (coins-collected-total 73)
+              (badguys-killed 14)
+            )
+            (solved #t)
+          )
+          ("get_to_choppa.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 27)
+              (secrets-found 0)
+              (time-needed 53.90862)
+              (secrets-found-total 1)
+              (badguys-killed-total 34)
+              (coins-collected-total 132)
+              (badguys-killed 16)
+            )
+            (solved #t)
+          )
+          ("redmond_headquarters.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 38)
+              (secrets-found 0)
+              (time-needed 93.822)
+              (secrets-found-total 0)
+              (badguys-killed-total 24)
+              (coins-collected-total 57)
+              (badguys-killed 12)
+            )
+            (solved #t)
+          )
+          ("where_my_super_cape.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 28)
+              (secrets-found 0)
+              (time-needed 75.64274)
+              (secrets-found-total 0)
+              (badguys-killed-total 29)
+              (coins-collected-total 74)
+              (badguys-killed 26)
+            )
+            (solved #t)
+          )
+          ("long_office_nights.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 47)
+              (secrets-found 0)
+              (time-needed 136.3303)
+              (secrets-found-total 0)
+              (badguys-killed-total 30)
+              (coins-collected-total 73)
+              (badguys-killed 25)
+            )
+            (solved #t)
+          )
+          ("antarctica.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 21)
+              (secrets-found 0)
+              (time-needed 53.84862)
+              (secrets-found-total 0)
+              (badguys-killed-total 30)
+              (coins-collected-total 100)
+              (badguys-killed 15)
+            )
+            (solved #t)
+          )
+        )
+        ("tux"
+          (y 13)
+          (x 20)
+          (back "north")
+        )
+        ("tilemaps"
+          ("land"
+            (alpha 1)
+          )
+          ("pathing"
+            (alpha 1)
+          )
+          ("water"
+            (alpha 1)
+          )
+          ("decoration"
+            (alpha 1)
+          )
+        )
+      )
+    )
+  )
+)
