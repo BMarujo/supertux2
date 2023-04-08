@@ -1,9 +1,9 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island III (13/44)")
+  (title "Bonus Island III (24/44)")
   (tux
     (bonus "fireflower")
-    (fireflowers 3)
+    (fireflowers 9999)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
@@ -25,19 +25,55 @@
           )
           ("entering_castle.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 25)
+              (secrets-found 0)
+              (time-needed 109.0164)
+              (secrets-found-total 1)
+              (badguys-killed-total 21)
+              (coins-collected-total 60)
+              (badguys-killed 11)
+            )
+            (solved #t)
           )
           ("pinksnow.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 30)
+              (secrets-found 0)
+              (time-needed 44.594)
+              (secrets-found-total 1)
+              (badguys-killed-total 14)
+              (coins-collected-total 68)
+              (badguys-killed 7)
+            )
+            (solved #t)
           )
           ("crystal_cataclysm.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 29)
+              (secrets-found 0)
+              (time-needed 132.8204)
+              (secrets-found-total 3)
+              (badguys-killed-total 44)
+              (coins-collected-total 159)
+              (badguys-killed 38)
+            )
+            (solved #t)
           )
           ("niv-1.1.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 24)
+              (secrets-found 0)
+              (time-needed 45.34397)
+              (secrets-found-total 3)
+              (badguys-killed-total 15)
+              (coins-collected-total 50)
+              (badguys-killed 12)
+            )
+            (solved #t)
           )
           ("-89-2_degrees.stl"
             (perfect #f)
@@ -45,7 +81,16 @@
           )
           ("niv-3.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 2)
+              (secrets-found 0)
+              (time-needed 162.9542)
+              (secrets-found-total 2)
+              (badguys-killed-total 34)
+              (coins-collected-total 32)
+              (badguys-killed 11)
+            )
+            (solved #t)
           )
           ("deepest.stl"
             (perfect #f)
@@ -53,7 +98,16 @@
           )
           ("crystal_beauty.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 32)
+              (secrets-found 0)
+              (time-needed 76.5427)
+              (secrets-found-total 2)
+              (badguys-killed-total 14)
+              (coins-collected-total 46)
+              (badguys-killed 6)
+            )
+            (solved #t)
           )
           ("cant_climb_higher_clouds.stl"
             (perfect #f)
@@ -65,7 +119,16 @@
           )
           ("niv-2.1.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 3)
+              (secrets-found 0)
+              (time-needed 46.66391)
+              (secrets-found-total 1)
+              (badguys-killed-total 86)
+              (coins-collected-total 40)
+              (badguys-killed 11)
+            )
+            (solved #t)
           )
           ("under ice.stl"
             (perfect #f)
@@ -86,7 +149,16 @@
           )
           ("dark_castle.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 22)
+              (secrets-found 0)
+              (time-needed 48.67383)
+              (secrets-found-total 0)
+              (badguys-killed-total 35)
+              (coins-collected-total 71)
+              (badguys-killed 10)
+            )
+            (solved #t)
           )
           ("abandoned_castle.stl"
             (perfect #f)
@@ -140,7 +212,16 @@
           )
           ("glaciers.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 18)
+              (secrets-found 0)
+              (time-needed 47.12889)
+              (secrets-found-total 1)
+              (badguys-killed-total 28)
+              (coins-collected-total 42)
+              (badguys-killed 19)
+            )
+            (solved #t)
           )
           ("its_getting_unfinishable.stl"
             (perfect #t)
@@ -187,7 +268,16 @@
           )
           ("Global_Warming.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 18)
+              (secrets-found 0)
+              (time-needed 56.41352)
+              (secrets-found-total 1)
+              (badguys-killed-total 6)
+              (coins-collected-total 24)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("shakespeare-rain.stl"
             (perfect #f)
@@ -224,7 +314,16 @@
           )
           ("snowy_hill.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 37)
+              (secrets-found 0)
+              (time-needed 47.0239)
+              (secrets-found-total 1)
+              (badguys-killed-total 27)
+              (coins-collected-total 124)
+              (badguys-killed 13)
+            )
+            (solved #t)
           )
           ("over_the_ocean.stl"
             (perfect #f)
@@ -310,9 +409,9 @@
           )
         )
         ("tux"
-          (y 13)
-          (x 14)
-          (back "east")
+          (y 26)
+          (x 68)
+          (back "north")
         )
         ("tilemaps"
           ("Decorations"
