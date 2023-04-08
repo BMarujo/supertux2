@@ -1,6 +1,6 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island III (24/44)")
+  (title "Bonus Island III (27/44)")
   (tux
     (bonus "fireflower")
     (fireflowers 9999)
@@ -94,7 +94,16 @@
           )
           ("deepest.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 47.26389)
+              (secrets-found-total 0)
+              (badguys-killed-total 26)
+              (coins-collected-total 0)
+              (badguys-killed 18)
+            )
+            (solved #t)
           )
           ("crystal_beauty.stl"
             (perfect #f)
@@ -115,7 +124,16 @@
           )
           ("deep_deeper.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 17)
+              (secrets-found 0)
+              (time-needed 67.54307)
+              (secrets-found-total 0)
+              (badguys-killed-total 28)
+              (coins-collected-total 80)
+              (badguys-killed 20)
+            )
+            (solved #t)
           )
           ("niv-2.1.stl"
             (perfect #f)
@@ -166,7 +184,16 @@
           )
           ("dark_castle-v2.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 1)
+              (secrets-found 0)
+              (time-needed 50.63875)
+              (secrets-found-total 0)
+              (badguys-killed-total 29)
+              (coins-collected-total 3)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
           ("in_the_spring.stl"
             (perfect #f)
@@ -409,9 +436,9 @@
           )
         )
         ("tux"
-          (y 26)
-          (x 68)
-          (back "north")
+          (y 36)
+          (x 61)
+          (back "east")
         )
         ("tilemaps"
           ("Decorations"
