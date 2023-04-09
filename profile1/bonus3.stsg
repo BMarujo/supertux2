@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island III (35/44)")
+  (title "Bonus Island III (43/44)")
   (tux
-    (bonus "fireflower")
-    (fireflowers 9999)
+    (bonus "none")
+    (fireflowers 0)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 9999)
+    (coins 1717)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -86,7 +86,16 @@
           )
           ("-89-2_degrees.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 20)
+              (secrets-found 0)
+              (time-needed 37.52929)
+              (secrets-found-total 1)
+              (badguys-killed-total 34)
+              (coins-collected-total 51)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
           ("niv-3.stl"
             (perfect #f)
@@ -181,7 +190,16 @@
           )
           ("red_alert_forest.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 57.65847)
+              (secrets-found-total 1)
+              (badguys-killed-total 8)
+              (coins-collected-total 578)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("dark_castle.stl"
             (perfect #f)
@@ -198,7 +216,16 @@
           )
           ("abandoned_castle.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 12)
+              (secrets-found 0)
+              (time-needed 303.2014)
+              (secrets-found-total 0)
+              (badguys-killed-total 18)
+              (coins-collected-total 26)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("dark_castle-v2.stl"
             (perfect #f)
@@ -215,7 +242,16 @@
           )
           ("in_the_spring.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 2)
+              (secrets-found 0)
+              (time-needed 115.1661)
+              (secrets-found-total 1)
+              (badguys-killed-total 19)
+              (coins-collected-total 29)
+              (badguys-killed 3)
+            )
+            (solved #t)
           )
           ("castle_light+darkness-v3.stl"
             (perfect #f)
@@ -245,7 +281,16 @@
           )
           ("antarctic_rain.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 26)
+              (secrets-found 0)
+              (time-needed 39.19422)
+              (secrets-found-total 1)
+              (badguys-killed-total 15)
+              (coins-collected-total 75)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("three_frosty_icebergs.stl"
             (perfect #f)
@@ -327,7 +372,16 @@
           )
           ("sever_escape.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 6)
+              (secrets-found 0)
+              (time-needed 50.06878)
+              (secrets-found-total 1)
+              (badguys-killed-total 11)
+              (coins-collected-total 6)
+              (badguys-killed 3)
+            )
+            (solved #t)
           )
           ("Global_Warming.stl"
             (perfect #f)
@@ -396,7 +450,16 @@
           )
           ("coconut_fortress.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 11)
+              (secrets-found 0)
+              (time-needed 113.7712)
+              (secrets-found-total 1)
+              (badguys-killed-total 13)
+              (coins-collected-total 42)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("cave_run.stl"
             (perfect #f)
@@ -478,7 +541,16 @@
           )
           ("but_no_one_can_stop_it.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 38)
+              (secrets-found 1)
+              (time-needed 54.3736)
+              (secrets-found-total 1)
+              (badguys-killed-total 29)
+              (coins-collected-total 165)
+              (badguys-killed 21)
+            )
+            (solved #t)
           )
           ("crystal.stl"
             (perfect #f)
@@ -509,8 +581,8 @@
         )
         ("tux"
           (y 44)
-          (x 63)
-          (back "west")
+          (x 15)
+          (back "south")
         )
         ("tilemaps"
           ("Decorations"
