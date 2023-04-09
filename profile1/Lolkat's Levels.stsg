@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Icyisland (5/24)")
+  (title "Icyisland (7/24)")
   (tux
-    (bonus "growup")
+    (bonus "airflower")
     (fireflowers 0)
     (iceflowers 0)
-    (airflowers 0)
+    (airflowers 9999)
     (earthflowers 0)
-    (coins 208)
+    (coins 9999)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -104,7 +104,16 @@
           )
           ("12.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 53.24865)
+              (secrets-found-total 0)
+              (badguys-killed-total 10)
+              (coins-collected-total 2)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("17.stl"
             (perfect #f)
@@ -125,7 +134,16 @@
           )
           ("13.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 1)
+              (secrets-found 0)
+              (time-needed 44.09902)
+              (secrets-found-total 0)
+              (badguys-killed-total 10)
+              (coins-collected-total 3)
+              (badguys-killed 6)
+            )
+            (solved #t)
           )
           ("5.stl"
             (perfect #f)
@@ -158,7 +176,7 @@
           )
         )
         ("tux"
-          (y 20)
+          (y 22)
           (x 4)
           (back "north")
         )
