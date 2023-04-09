@@ -157,6 +157,10 @@
     )
   )
   (addons
+    (addon
+      (id "lolkat-levels")
+      (enabled #t)
+    )
   )
   (editor
     (autosave_frequency 5)

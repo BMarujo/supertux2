@@ -1,0 +1,170 @@
+(supertux-savegame
+  (version 1)
+  (title "Icyisland (5/24)")
+  (tux
+    (bonus "growup")
+    (fireflowers 0)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 208)
+    (worldmap-sprite "images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    ("worlds"
+      ("/levels/Lolkat's Levels/worldmap.stwm"
+        ("levels"
+          ("20.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("8.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("16.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("19.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("14.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("15.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("22.stl"
+            (perfect #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 48.74883)
+              (secrets-found-total 0)
+              (badguys-killed-total 0)
+              (coins-collected-total 0)
+              (badguys-killed 0)
+            )
+            (solved #t)
+          )
+          ("3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("9.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("6.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 2)
+              (secrets-found 0)
+              (time-needed 24.25482)
+              (secrets-found-total 0)
+              (badguys-killed-total 16)
+              (coins-collected-total 2)
+              (badguys-killed 10)
+            )
+            (solved #t)
+          )
+          ("21.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("11.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("1.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 3)
+              (secrets-found 0)
+              (time-needed 50.50376)
+              (secrets-found-total 0)
+              (badguys-killed-total 19)
+              (coins-collected-total 3)
+              (badguys-killed 9)
+            )
+            (solved #t)
+          )
+          ("12.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("17.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("intro.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 76.4677)
+              (secrets-found-total 0)
+              (badguys-killed-total 1)
+              (coins-collected-total 0)
+              (badguys-killed 0)
+            )
+            (solved #t)
+          )
+          ("13.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("18.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("7.stl"
+            (perfect #t)
+            ("statistics"
+              (coins-collected 1)
+              (secrets-found 0)
+              (time-needed 29.20462)
+              (secrets-found-total 0)
+              (badguys-killed-total 9)
+              (coins-collected-total 1)
+              (badguys-killed 9)
+            )
+            (solved #t)
+          )
+          ("23.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("10.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tux"
+          (y 20)
+          (x 4)
+          (back "north")
+        )
+        ("tilemaps"
+        )
+      )
+    )
+  )
+)
