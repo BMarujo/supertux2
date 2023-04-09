@@ -41,9 +41,9 @@
           )
         )
         ("tux"
-          (y 28)
-          (x 41)
-          (back "south")
+          (y 26)
+          (x 44)
+          (back "west")
         )
         ("levels"
           ("Welcome_To_Icy_Island (gelada).stl"
