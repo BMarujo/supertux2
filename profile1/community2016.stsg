@@ -1,6 +1,6 @@
 (supertux-savegame
   (version 1)
-  (title "Community Island 2020 (2/19)")
+  (title "Community Island 2020 (7/19)")
   (tux
     (bonus "fireflower")
     (fireflowers 9999)
@@ -8,7 +8,7 @@
     (airflowers 0)
     (earthflowers 0)
     (coins 9999)
-    (worldmap-sprite "/images/worldmap/common/tux.sprite")
+    (worldmap-sprite "/images/worldmap/common/swim.sprite")
     (last-worldmap "")
   )
   (state
@@ -25,7 +25,7 @@
             (show-stay-action #t)
           )
           ("49_31"
-            (show-stay-action #f)
+            (show-stay-action #t)
           )
           ("49_32"
             (show-stay-action #f)
@@ -41,9 +41,9 @@
           )
         )
         ("tux"
-          (y 26)
-          (x 44)
-          (back "west")
+          (y 28)
+          (x 59)
+          (back "south")
         )
         ("levels"
           ("Welcome_To_Icy_Island (gelada).stl"
@@ -52,7 +52,16 @@
           )
           ("Up_Or_Down (Serano).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 7)
+              (secrets-found 0)
+              (time-needed 65.84814)
+              (secrets-found-total 0)
+              (badguys-killed-total 40)
+              (coins-collected-total 56)
+              (badguys-killed 15)
+            )
+            (solved #t)
           )
           ("Castle_Life (Serano).stl"
             (perfect #f)
@@ -80,7 +89,16 @@
           )
           ("The_Missing_Link (Serano).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 3)
+              (secrets-found 0)
+              (time-needed 110.7713)
+              (secrets-found-total 2)
+              (badguys-killed-total 27)
+              (coins-collected-total 91)
+              (badguys-killed 1)
+            )
+            (solved #t)
           )
           ("Entrance_To_Cave (gelada).stl"
             (perfect #f)
@@ -88,11 +106,29 @@
           )
           ("Problem_With_Green (herobrine).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 113)
+              (secrets-found 0)
+              (time-needed 118.781)
+              (secrets-found-total 0)
+              (badguys-killed-total 89)
+              (coins-collected-total 131)
+              (badguys-killed 89)
+            )
+            (solved #t)
           )
           ("Under_The_Water (davide).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 29)
+              (secrets-found 0)
+              (time-needed 98.15682)
+              (secrets-found-total 1)
+              (badguys-killed-total 51)
+              (coins-collected-total 177)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
           ("Ice_Under_Water (adharsh).stl"
             (perfect #f)
@@ -113,7 +149,16 @@
           )
           ("Ancient_Ruins (RustyBox).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 13)
+              (secrets-found 0)
+              (time-needed 149.7247)
+              (secrets-found-total 0)
+              (badguys-killed-total 48)
+              (coins-collected-total 119)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("Entrance_To_Lava_Castle (herobrine).stl"
             (perfect #f)
