@@ -1,14 +1,14 @@
 (supertux-savegame
   (version 1)
-  (title "Community Island 2020 (7/19)")
+  (title "Community Island 2020 (19/19)")
   (tux
     (bonus "fireflower")
-    (fireflowers 9999)
+    (fireflowers 2)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 9999)
-    (worldmap-sprite "/images/worldmap/common/swim.sprite")
+    (coins 6189)
+    (worldmap-sprite "/images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
   (state
@@ -16,22 +16,22 @@
       ("/levels/community2016/worldmap.stwm"
         ("sprite-changes"
           ("41_32"
-            (show-stay-action #f)
+            (show-stay-action #t)
           )
           ("41_33"
-            (show-stay-action #t)
+            (show-stay-action #f)
           )
           ("25_27"
-            (show-stay-action #t)
+            (show-stay-action #f)
           )
           ("49_31"
-            (show-stay-action #t)
+            (show-stay-action #f)
           )
           ("49_32"
-            (show-stay-action #f)
+            (show-stay-action #t)
           )
           ("26_27"
-            (show-stay-action #f)
+            (show-stay-action #t)
           )
           ("63_20"
             (show-stay-action #f)
@@ -41,14 +41,23 @@
           )
         )
         ("tux"
-          (y 28)
-          (x 59)
+          (y 24)
+          (x 19)
           (back "south")
         )
         ("levels"
           ("Welcome_To_Icy_Island (gelada).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 6)
+              (secrets-found 0)
+              (time-needed 66.6731)
+              (secrets-found-total 0)
+              (badguys-killed-total 22)
+              (coins-collected-total 24)
+              (badguys-killed 17)
+            )
+            (solved #t)
           )
           ("Up_Or_Down (Serano).stl"
             (perfect #f)
@@ -65,27 +74,81 @@
           )
           ("Castle_Life (Serano).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 62)
+              (secrets-found 1)
+              (time-needed 165.2491)
+              (secrets-found-total 1)
+              (badguys-killed-total 34)
+              (coins-collected-total 92)
+              (badguys-killed 23)
+            )
+            (solved #t)
           )
           ("Into_The_Palace (ThomyW).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 24)
+              (secrets-found 0)
+              (time-needed 193.6729)
+              (secrets-found-total 1)
+              (badguys-killed-total 21)
+              (coins-collected-total 106)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("Double_Problems (herobrine).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 22)
+              (secrets-found 0)
+              (time-needed 76.93269)
+              (secrets-found-total 1)
+              (badguys-killed-total 34)
+              (coins-collected-total 105)
+              (badguys-killed 13)
+            )
+            (solved #t)
           )
           ("The_Mountains (gelada).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 8)
+              (secrets-found 1)
+              (time-needed 53.80362)
+              (secrets-found-total 1)
+              (badguys-killed-total 59)
+              (coins-collected-total 38)
+              (badguys-killed 16)
+            )
+            (solved #t)
           )
           ("Is_The_Biggest_Fish (cookie monster).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 53)
+              (secrets-found 0)
+              (time-needed 45.59896)
+              (secrets-found-total 1)
+              (badguys-killed-total 13)
+              (coins-collected-total 175)
+              (badguys-killed 10)
+            )
+            (solved #t)
           )
           ("By_Arctic_Water (jojo141948).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 21)
+              (secrets-found 0)
+              (time-needed 67.76806)
+              (secrets-found-total 1)
+              (badguys-killed-total 47)
+              (coins-collected-total 98)
+              (badguys-killed 23)
+            )
+            (solved #t)
           )
           ("The_Missing_Link (Serano).stl"
             (perfect #f)
@@ -102,7 +165,16 @@
           )
           ("Entrance_To_Cave (gelada).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 7)
+              (secrets-found 0)
+              (time-needed 88.57221)
+              (secrets-found-total 1)
+              (badguys-killed-total 32)
+              (coins-collected-total 118)
+              (badguys-killed 6)
+            )
+            (solved #t)
           )
           ("Problem_With_Green (herobrine).stl"
             (perfect #f)
@@ -132,7 +204,16 @@
           )
           ("Ice_Under_Water (adharsh).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 14)
+              (secrets-found 0)
+              (time-needed 61.25832)
+              (secrets-found-total 1)
+              (badguys-killed-total 38)
+              (coins-collected-total 84)
+              (badguys-killed 11)
+            )
+            (solved #t)
           )
           ("Sunny_Hills (Serano).stl"
             (perfect #f)
@@ -162,7 +243,16 @@
           )
           ("Entrance_To_Lava_Castle (herobrine).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 18)
+              (secrets-found 0)
+              (time-needed 58.09345)
+              (secrets-found-total 0)
+              (badguys-killed-total 38)
+              (coins-collected-total 40)
+              (badguys-killed 23)
+            )
+            (solved #t)
           )
           ("HMS_Snowballs_Ahoy (Vellidragon).stl"
             (perfect #f)
@@ -179,11 +269,29 @@
           )
           ("Uncontrolled_Lift (gelada).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 111.6263)
+              (secrets-found-total 0)
+              (badguys-killed-total 44)
+              (coins-collected-total 52)
+              (badguys-killed 1)
+            )
+            (solved #t)
           )
           ("The_Strange_Thing (herobrine).stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 47)
+              (secrets-found 0)
+              (time-needed 40.94915)
+              (secrets-found-total 0)
+              (badguys-killed-total 37)
+              (coins-collected-total 67)
+              (badguys-killed 21)
+            )
+            (solved #t)
           )
         )
         ("tilemaps"
