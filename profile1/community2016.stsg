@@ -1,0 +1,176 @@
+(supertux-savegame
+  (version 1)
+  (title "Community Island 2020 (2/19)")
+  (tux
+    (bonus "fireflower")
+    (fireflowers 9999)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 9999)
+    (worldmap-sprite "/images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    ("worlds"
+      ("/levels/community2016/worldmap.stwm"
+        ("sprite-changes"
+          ("41_32"
+            (show-stay-action #f)
+          )
+          ("41_33"
+            (show-stay-action #t)
+          )
+          ("25_27"
+            (show-stay-action #t)
+          )
+          ("49_31"
+            (show-stay-action #f)
+          )
+          ("49_32"
+            (show-stay-action #f)
+          )
+          ("26_27"
+            (show-stay-action #f)
+          )
+          ("63_20"
+            (show-stay-action #f)
+          )
+          ("63_22"
+            (show-stay-action #f)
+          )
+        )
+        ("tux"
+          (y 28)
+          (x 41)
+          (back "south")
+        )
+        ("levels"
+          ("Welcome_To_Icy_Island (gelada).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Up_Or_Down (Serano).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Castle_Life (Serano).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Into_The_Palace (ThomyW).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Double_Problems (herobrine).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("The_Mountains (gelada).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Is_The_Biggest_Fish (cookie monster).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("By_Arctic_Water (jojo141948).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("The_Missing_Link (Serano).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Entrance_To_Cave (gelada).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Problem_With_Green (herobrine).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Under_The_Water (davide).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Ice_Under_Water (adharsh).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Sunny_Hills (Serano).stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 15)
+              (secrets-found 0)
+              (time-needed 74.65278)
+              (secrets-found-total 0)
+              (badguys-killed-total 30)
+              (coins-collected-total 40)
+              (badguys-killed 8)
+            )
+            (solved #t)
+          )
+          ("Ancient_Ruins (RustyBox).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Entrance_To_Lava_Castle (herobrine).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("HMS_Snowballs_Ahoy (Vellidragon).stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 63)
+              (secrets-found 0)
+              (time-needed 121.4659)
+              (secrets-found-total 2)
+              (badguys-killed-total 39)
+              (coins-collected-total 249)
+              (badguys-killed 6)
+            )
+            (solved #t)
+          )
+          ("Uncontrolled_Lift (gelada).stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("The_Strange_Thing (herobrine).stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tilemaps"
+          ("Water"
+            (alpha 1)
+          )
+          ("Castles"
+            (alpha 1)
+          )
+          ("Interactive"
+            (alpha 1)
+          )
+          ("Foreground"
+            (alpha 1)
+          )
+          ("Watereffects"
+            (alpha 1)
+          )
+          ("moretrees"
+            (alpha 1)
+          )
+          ("Trees"
+            (alpha 1)
+          )
+          ("behindpathing"
+            (alpha 1)
+          )
+          ("midtrees"
+            (alpha 1)
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Bonus Island IV (18/27)")
+  (title "Bonus Island IV (27/27)")
   (tux
-    (bonus "fireflower")
-    (fireflowers 9999)
+    (bonus "none")
+    (fireflowers 0)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 9999)
+    (coins 5568)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -30,7 +30,16 @@
           )
           ("Stormy_Night.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 1)
+              (secrets-found 0)
+              (time-needed 68.42803)
+              (secrets-found-total 1)
+              (badguys-killed-total 38)
+              (coins-collected-total 116)
+              (badguys-killed 8)
+            )
+            (solved #t)
           )
           ("The_Way_Of_The_Snow.stl"
             (perfect #f)
@@ -73,7 +82,16 @@
           )
           ("Spooky_Mansion.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 14)
+              (secrets-found 0)
+              (time-needed 201.6226)
+              (secrets-found-total 0)
+              (badguys-killed-total 30)
+              (coins-collected-total 50)
+              (badguys-killed 3)
+            )
+            (solved #t)
           )
           ("Cold_Forest.stl"
             (perfect #f)
@@ -168,19 +186,55 @@
           )
           ("Snowy_Sunset.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 43)
+              (secrets-found 0)
+              (time-needed 38.96923)
+              (secrets-found-total 0)
+              (badguys-killed-total 28)
+              (coins-collected-total 123)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
           ("Generic_Snow_Level.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 9)
+              (secrets-found 0)
+              (time-needed 44.15902)
+              (secrets-found-total 1)
+              (badguys-killed-total 30)
+              (coins-collected-total 60)
+              (badguys-killed 17)
+            )
+            (solved #t)
           )
           ("Halloween_Fields.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 32)
+              (secrets-found 0)
+              (time-needed 80.45754)
+              (secrets-found-total 1)
+              (badguys-killed-total 35)
+              (coins-collected-total 66)
+              (badguys-killed 11)
+            )
+            (solved #t)
           )
           ("Its_Halloween_Time.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 24)
+              (secrets-found 0)
+              (time-needed 70.97793)
+              (secrets-found-total 1)
+              (badguys-killed-total 30)
+              (coins-collected-total 28)
+              (badguys-killed 16)
+            )
+            (solved #t)
           )
           ("Sky_High.stl"
             (perfect #f)
@@ -210,7 +264,16 @@
           )
           ("Crystal_Mania.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 84.97236)
+              (secrets-found-total 0)
+              (badguys-killed-total 41)
+              (coins-collected-total 81)
+              (badguys-killed 10)
+            )
+            (solved #t)
           )
           ("Feeling_The_Nature.stl"
             (perfect #f)
@@ -253,7 +316,16 @@
           )
           ("Deeper_Into_The_Mountains.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 20)
+              (secrets-found 0)
+              (time-needed 113.7412)
+              (secrets-found-total 1)
+              (badguys-killed-total 29)
+              (coins-collected-total 47)
+              (badguys-killed 20)
+            )
+            (solved #t)
           )
           ("Night_Terrors.stl"
             (perfect #f)
@@ -283,13 +355,22 @@
           )
           ("Some_Icy_Path.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 63)
+              (secrets-found 0)
+              (time-needed 131.6655)
+              (secrets-found-total 0)
+              (badguys-killed-total 32)
+              (coins-collected-total 101)
+              (badguys-killed 14)
+            )
+            (solved #t)
           )
         )
         ("tux"
-          (y 18)
-          (x 57)
-          (back "east")
+          (y 8)
+          (x 45)
+          (back "south")
         )
         ("tilemaps"
           ("Bluemountains"
