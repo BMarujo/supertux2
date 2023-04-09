@@ -1,11 +1,11 @@
 (supertux-savegame
   (version 1)
-  (title "Christmas 2016 (2/5)")
+  (title "Christmas 2016 (3/5)")
   (tux
-    (bonus "airflower")
-    (fireflowers 0)
+    (bonus "fireflower")
+    (fireflowers 9999)
     (iceflowers 0)
-    (airflowers 9999)
+    (airflowers 0)
     (earthflowers 0)
     (coins 9999)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
@@ -34,7 +34,16 @@
           )
           ("christmas2.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 15)
+              (secrets-found 0)
+              (time-needed 93.97199)
+              (secrets-found-total 2)
+              (badguys-killed-total 36)
+              (coins-collected-total 149)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
           ("outro.stl"
             (perfect #f)
@@ -55,8 +64,8 @@
           )
         )
         ("tux"
-          (y 14)
-          (x 18)
+          (y 12)
+          (x 23)
           (back "west")
         )
         ("tilemaps"
