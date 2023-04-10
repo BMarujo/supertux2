@@ -1,6 +1,6 @@
 (supertux-savegame
   (version 1)
-  (title "Icyisland (16/24)")
+  (title "Icyisland (24/24)")
   (tux
     (bonus "fireflower")
     (fireflowers 9999)
@@ -29,8 +29,17 @@
             (solved #t)
           )
           ("8.stl"
-            (perfect #f)
-            (solved #f)
+            (perfect #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 28.99463)
+              (secrets-found-total 0)
+              (badguys-killed-total 9)
+              (coins-collected-total 0)
+              (badguys-killed 9)
+            )
+            (solved #t)
           )
           ("16.stl"
             (perfect #f)
@@ -86,11 +95,29 @@
           )
           ("15.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 3)
+              (secrets-found 0)
+              (time-needed 59.90837)
+              (secrets-found-total 0)
+              (badguys-killed-total 26)
+              (coins-collected-total 3)
+              (badguys-killed 24)
+            )
+            (solved #t)
           )
           ("2.stl"
-            (perfect #f)
-            (solved #f)
+            (perfect #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 51.9887)
+              (secrets-found-total 0)
+              (badguys-killed-total 0)
+              (coins-collected-total 0)
+              (badguys-killed 0)
+            )
+            (solved #t)
           )
           ("22.stl"
             (perfect #t)
@@ -107,11 +134,29 @@
           )
           ("3.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 1)
+              (secrets-found 0)
+              (time-needed 31.82952)
+              (secrets-found-total 0)
+              (badguys-killed-total 27)
+              (coins-collected-total 1)
+              (badguys-killed 25)
+            )
+            (solved #t)
           )
           ("9.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 30.79456)
+              (secrets-found-total 0)
+              (badguys-killed-total 15)
+              (coins-collected-total 2)
+              (badguys-killed 15)
+            )
+            (solved #t)
           )
           ("6.stl"
             (perfect #f)
@@ -141,7 +186,16 @@
           )
           ("11.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 12)
+              (secrets-found 0)
+              (time-needed 65.00817)
+              (secrets-found-total 0)
+              (badguys-killed-total 17)
+              (coins-collected-total 15)
+              (badguys-killed 14)
+            )
+            (solved #t)
           )
           ("1.stl"
             (perfect #f)
@@ -210,7 +264,16 @@
           )
           ("5.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 24.9148)
+              (secrets-found-total 0)
+              (badguys-killed-total 14)
+              (coins-collected-total 2)
+              (badguys-killed 14)
+            )
+            (solved #t)
           )
           ("18.stl"
             (perfect #f)
@@ -253,13 +316,22 @@
           )
           ("10.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 29.32462)
+              (secrets-found-total 0)
+              (badguys-killed-total 20)
+              (coins-collected-total 0)
+              (badguys-killed 12)
+            )
+            (solved #t)
           )
         )
         ("tux"
-          (y 12)
-          (x 19)
-          (back "west")
+          (y 5)
+          (x 4)
+          (back "none")
         )
         ("tilemaps"
         )

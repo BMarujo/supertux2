@@ -1,0 +1,114 @@
+(supertux-savegame
+  (version 1)
+  (title "octo's Island (2/16)")
+  (tux
+    (bonus "fireflower")
+    (fireflowers 9999)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 9999)
+    (worldmap-sprite "images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    ("worlds"
+      ("/levels/octo/worldmap.stwm"
+        ("levels"
+          ("entrance.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("throne_room.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("yoshi2.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 13)
+              (secrets-found 0)
+              (time-needed 62.39827)
+              (secrets-found-total 0)
+              (badguys-killed-total 19)
+              (coins-collected-total 49)
+              (badguys-killed 0)
+            )
+            (solved #t)
+          )
+          ("get_em_all.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("jolly_jumper.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("tower.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("torture_chamber.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("chocolate2.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 5)
+              (secrets-found 0)
+              (time-needed 104.5166)
+              (secrets-found-total 1)
+              (badguys-killed-total 36)
+              (coins-collected-total 6)
+              (badguys-killed 18)
+            )
+            (solved #t)
+          )
+          ("drawbridge.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("SML0102.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("broken_escalator.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("cherry_frosting.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("through_mountain.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("SML0103.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("cube_garden.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("SML0101.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tux"
+          (y 15)
+          (x 7)
+          (back "west")
+        )
+        ("tilemaps"
+          ("Interactive"
+            (alpha 1)
+          )
+        )
+      )
+    )
+  )
+)
