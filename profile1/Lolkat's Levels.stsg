@@ -1,9 +1,9 @@
 (supertux-savegame
   (version 1)
-  (title "Icyisland (13/24)")
+  (title "Icyisland (16/24)")
   (tux
     (bonus "fireflower")
-    (fireflowers 4)
+    (fireflowers 9999)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
@@ -17,7 +17,16 @@
         ("levels"
           ("20.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 2)
+              (secrets-found 0)
+              (time-needed 62.27828)
+              (secrets-found-total 0)
+              (badguys-killed-total 2)
+              (coins-collected-total 2)
+              (badguys-killed 1)
+            )
+            (solved #t)
           )
           ("8.stl"
             (perfect #f)
@@ -119,7 +128,16 @@
           )
           ("21.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 46.07894)
+              (secrets-found-total 0)
+              (badguys-killed-total 37)
+              (coins-collected-total 4)
+              (badguys-killed 33)
+            )
+            (solved #t)
           )
           ("11.stl"
             (perfect #f)
@@ -196,7 +214,16 @@
           )
           ("18.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 24.28482)
+              (secrets-found-total 0)
+              (badguys-killed-total 4)
+              (coins-collected-total 2)
+              (badguys-killed 1)
+            )
+            (solved #t)
           )
           ("7.stl"
             (perfect #t)
@@ -230,8 +257,8 @@
           )
         )
         ("tux"
-          (y 8)
-          (x 16)
+          (y 12)
+          (x 19)
           (back "west")
         )
         ("tilemaps"
