@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "octo's Island (11/16)")
+  (title "octo's Island (16/16)")
   (tux
-    (bonus "fireflower")
-    (fireflowers 9999)
+    (bonus "none")
+    (fireflowers 0)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 9999)
+    (coins 5454)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -17,11 +17,29 @@
         ("levels"
           ("entrance.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 24)
+              (secrets-found 0)
+              (time-needed 30.65956)
+              (secrets-found-total 1)
+              (badguys-killed-total 7)
+              (coins-collected-total 144)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
           ("throne_room.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 35)
+              (secrets-found 0)
+              (time-needed 75.76273)
+              (secrets-found-total 0)
+              (badguys-killed-total 11)
+              (coins-collected-total 101)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
           ("yoshi2.stl"
             (perfect #f)
@@ -64,11 +82,29 @@
           )
           ("tower.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 9)
+              (secrets-found 0)
+              (time-needed 61.18332)
+              (secrets-found-total 1)
+              (badguys-killed-total 12)
+              (coins-collected-total 39)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
           ("torture_chamber.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 20)
+              (secrets-found 0)
+              (time-needed 127.2706)
+              (secrets-found-total 1)
+              (badguys-killed-total 12)
+              (coins-collected-total 133)
+              (badguys-killed 1)
+            )
+            (solved #t)
           )
           ("chocolate2.stl"
             (perfect #f)
@@ -85,7 +121,16 @@
           )
           ("drawbridge.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 33)
+              (secrets-found 0)
+              (time-needed 24.19483)
+              (secrets-found-total 0)
+              (badguys-killed-total 12)
+              (coins-collected-total 43)
+              (badguys-killed 11)
+            )
+            (solved #t)
           )
           ("SML0102.stl"
             (perfect #f)
@@ -180,9 +225,9 @@
           )
         )
         ("tux"
-          (y 6)
-          (x 17)
-          (back "west")
+          (y 5)
+          (x 22)
+          (back "east")
         )
         ("tilemaps"
           ("Interactive"

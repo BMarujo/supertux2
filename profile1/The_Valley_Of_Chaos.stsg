@@ -1,0 +1,138 @@
+(supertux-savegame
+  (version 1)
+  (title "The Valley Of Chaos (0/25)")
+  (tux
+    (bonus "fireflower")
+    (fireflowers 9999)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 9999)
+    (worldmap-sprite "images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    ("worlds"
+      ("/levels/The_Valley_Of_Chaos/worldmap.stwm"
+        ("levels"
+          ("level13.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level8.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level9.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level6.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level17.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level14.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level22.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("bonus.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level7.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level19.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level21.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level11.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level20.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level24.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level12.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level10.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level18.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level23.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level16.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level15.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tux"
+          (y 5)
+          (x 5)
+          (back "north")
+        )
+        ("tilemaps"
+          ("Interactive"
+            (alpha 1)
+          )
+          ("Foreground"
+            (alpha 1)
+          )
+          ("Background"
+            (alpha 1)
+          )
+        )
+      )
+    )
+  )
+)
