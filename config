@@ -166,6 +166,10 @@
       (enabled #t)
     )
     (addon
+      (id "rubberduck-levels")
+      (enabled #t)
+    )
+    (addon
       (id "semajd-valley-of-chaos")
       (enabled #t)
     )
