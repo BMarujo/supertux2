@@ -1,6 +1,6 @@
 (supertux-savegame
   (version 1)
-  (title "The Valley Of Chaos (0/25)")
+  (title "The Valley Of Chaos (5/25)")
   (tux
     (bonus "fireflower")
     (fireflowers 9999)
@@ -33,7 +33,16 @@
           )
           ("level2.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 21)
+              (secrets-found 0)
+              (time-needed 66.6731)
+              (secrets-found-total 1)
+              (badguys-killed-total 28)
+              (coins-collected-total 193)
+              (badguys-killed 24)
+            )
+            (solved #t)
           )
           ("level17.stl"
             (perfect #f)
@@ -45,11 +54,29 @@
           )
           ("level5.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 9)
+              (secrets-found 0)
+              (time-needed 42.61408)
+              (secrets-found-total 0)
+              (badguys-killed-total 30)
+              (coins-collected-total 28)
+              (badguys-killed 12)
+            )
+            (solved #t)
           )
           ("level4.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 2)
+              (secrets-found 0)
+              (time-needed 28.46965)
+              (secrets-found-total 3)
+              (badguys-killed-total 26)
+              (coins-collected-total 169)
+              (badguys-killed 19)
+            )
+            (solved #t)
           )
           ("level22.stl"
             (perfect #f)
@@ -89,7 +116,16 @@
           )
           ("level1.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 14)
+              (secrets-found 0)
+              (time-needed 160.0293)
+              (secrets-found-total 0)
+              (badguys-killed-total 23)
+              (coins-collected-total 18)
+              (badguys-killed 19)
+            )
+            (solved #t)
           )
           ("level10.stl"
             (perfect #f)
@@ -105,7 +141,16 @@
           )
           ("level3.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 66)
+              (secrets-found 0)
+              (time-needed 71.5629)
+              (secrets-found-total 0)
+              (badguys-killed-total 14)
+              (coins-collected-total 93)
+              (badguys-killed 6)
+            )
+            (solved #t)
           )
           ("level16.stl"
             (perfect #f)
@@ -118,8 +163,8 @@
         )
         ("tux"
           (y 5)
-          (x 5)
-          (back "north")
+          (x 15)
+          (back "west")
         )
         ("tilemaps"
           ("Interactive"
