@@ -1,0 +1,267 @@
+(supertux-savegame
+  (version 1)
+  (title "Yeti's Revenge (3/44)")
+  (tux
+    (bonus "fireflower")
+    (fireflowers 9999)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 9999)
+    (worldmap-sprite "images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    (skip_scene1 #f)
+    (skip_scene2 #f)
+    ("worlds"
+      ("/levels/yetis_revenge/worldmap.stwm"
+        ("levels"
+          ("Lotus Grotto.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("intro.stl"
+            (perfect #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 133.0304)
+              (secrets-found-total 0)
+              (badguys-killed-total 0)
+              (coins-collected-total 0)
+              (badguys-killed 0)
+            )
+            (solved #t)
+          )
+          ("A Bombastic Day.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("A Wonderful Day.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Spooky Way Of Life.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Path Without Name.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("I Go With My Latern.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Blue Mountain.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Escape From The Pirates.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Cave Of Waterfalls.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Shaft Racing.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Controlling the Temperature.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Through The Groundwater.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Big Wave.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Still Waters Run Deep.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Something In The Water.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Freeze n Flee.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Pirates Harbor.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Something To Enjoy.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("No Bridge Out There.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Leaving Home And Start The Journey.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 50)
+              (secrets-found 0)
+              (time-needed 109.7514)
+              (secrets-found-total 1)
+              (badguys-killed-total 15)
+              (coins-collected-total 66)
+              (badguys-killed 15)
+            )
+            (solved #t)
+          )
+          ("Surfing Tux.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Carry Me.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("The Way Down.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Crazy Cave.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Reaching The Top.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Dont Be Afraid.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Above The Clouds.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Hang Out In The Underground.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Playground In The Water.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("The Grand Bridge.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Hail Storm.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Next To The Stars.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("bonus.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("More Of The Blue Mountain.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Slippery Climbing.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Foreign Passenger.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Living Spikes.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Staple Me.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Alls Well That Ends Well.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Windy Day On Ice.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Yetis Revenge.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Its Getting Colder.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tux"
+          (y 10)
+          (x 2)
+          (back "north")
+        )
+        ("tilemaps"
+          ("secret"
+            (alpha 0)
+          )
+          ("secrettop"
+            (alpha 1)
+          )
+        )
+      )
+    )
+    (skip_scene3 #f)
+    ("fishboxes"
+      (reaching #f)
+      (stars #f)
+      (shaft #f)
+      (home #t)
+      (worldmap #t)
+      (crazy #f)
+      (bonus #f)
+      (waterfalls #f)
+      (freeze #f)
+      (staple #f)
+      (down #f)
+      (slippery #f)
+      (foreign #f)
+      (hide_bonus #t)
+      (bombastic #f)
+      (playground #f)
+      (windy #f)
+      (colder #f)
+      (lotus #f)
+      (above #f)
+      (hail #f)
+      (end #f)
+      (temperature #f)
+      (without #f)
+      (blueone #f)
+      (bluetwo #f)
+      (harbor #f)
+      (escape #f)
+      (carry #f)
+      (hang #f)
+      (spooky #f)
+      (groundwater #f)
+      (enjoy #f)
+      (bridge #f)
+      (spikes #f)
+      (afraid #f)
+      (latern #f)
+    )
+  )
+)

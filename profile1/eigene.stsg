@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "world 1 (20/24)")
+  (title "world 1 (24/24)")
   (tux
-    (bonus "earthflower")
+    (bonus "none")
     (fireflowers 0)
     (iceflowers 0)
     (airflowers 0)
-    (earthflowers 9999)
-    (coins 429)
+    (earthflowers 0)
+    (coins 265)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -56,7 +56,16 @@
           )
           ("15-Hohlenreise.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 45)
+              (secrets-found 0)
+              (time-needed 188.9481)
+              (secrets-found-total 1)
+              (badguys-killed-total 24)
+              (coins-collected-total 133)
+              (badguys-killed 7)
+            )
+            (solved #t)
           )
           ("13-Jedes Ende hat ein Anfang.stl"
             (perfect #f)
@@ -86,7 +95,16 @@
           )
           ("14-Hoch und Runter.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 38)
+              (secrets-found 0)
+              (time-needed 247.3408)
+              (secrets-found-total 3)
+              (badguys-killed-total 41)
+              (coins-collected-total 110)
+              (badguys-killed 4)
+            )
+            (solved #t)
           )
           ("24-Eiskalt.stl"
             (perfect #f)
@@ -103,7 +121,16 @@
           )
           ("01-Elektrisch aufgeladen!.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 45)
+              (secrets-found 0)
+              (time-needed 682.1561)
+              (secrets-found-total 0)
+              (badguys-killed-total 29)
+              (coins-collected-total 135)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("17-Waldwege.stl"
             (perfect #f)
@@ -237,7 +264,16 @@
           )
           ("16-Die Invasion der Schnecken.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 53)
+              (secrets-found 0)
+              (time-needed 258.4578)
+              (secrets-found-total 2)
+              (badguys-killed-total 29)
+              (coins-collected-total 95)
+              (badguys-killed 12)
+            )
+            (solved #t)
           )
           ("21-Wenn der Schnee fallt.stl"
             (perfect #f)
@@ -293,9 +329,9 @@
           )
         )
         ("tux"
-          (y 16)
-          (x 38)
-          (back "north")
+          (y 3)
+          (x 3)
+          (back "south")
         )
         ("tilemaps"
           ("Interactive"

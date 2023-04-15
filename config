@@ -162,6 +162,10 @@
       (enabled #t)
     )
     (addon
+      (id "niso-yetis-revenge")
+      (enabled #t)
+    )
+    (addon
       (id "octo-levels")
       (enabled #t)
     )
