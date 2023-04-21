@@ -177,6 +177,10 @@
       (id "semajd-valley-of-chaos")
       (enabled #t)
     )
+    (addon
+      (id "lmh-matties-world")
+      (enabled #t)
+    )
   )
   (editor
     (autosave_frequency 5)

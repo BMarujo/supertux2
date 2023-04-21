@@ -1,0 +1,209 @@
+(supertux-savegame
+  (version 1)
+  (title "Mattie's Iceberg (2/23)")
+  (tux
+    (bonus "none")
+    (fireflowers 0)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 144)
+    (worldmap-sprite "images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    ("worlds"
+      ("/levels/mattie_world/worldmap.stwm"
+        ("levels"
+          ("mattie_iceberg/Oasis.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/Trophy.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_ScarySkies.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_Mineshaft.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_Wall.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/S_Airship.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_ThreeLanterns.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("TimeWarp.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_DOOM.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 20)
+              (secrets-found 0)
+              (time-needed 31.91951)
+              (secrets-found-total 0)
+              (badguys-killed-total 25)
+              (coins-collected-total 50)
+              (badguys-killed 4)
+            )
+            (solved #t)
+          )
+          ("mattie_iceberg/S_ToadCastle.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/S_Mineshaft.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_Escape.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/ToadCastle.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_HighRoute.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_Fields.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 3)
+              (secrets-found 0)
+              (time-needed 22.57489)
+              (secrets-found-total 1)
+              (badguys-killed-total 15)
+              (coins-collected-total 60)
+              (badguys-killed 5)
+            )
+            (solved #t)
+          )
+          ("mattie_iceberg/L_MtnPass.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_Dungeon.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_Moat.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/Waldo.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_Cavern.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/L_Quarry.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/MidwayCastle.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("mattie_iceberg/LSD.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tux"
+          (y 9)
+          (x 19)
+          (back "west")
+        )
+        ("tilemaps"
+          ("foredetail"
+            (alpha 1)
+          )
+          ("backdetail"
+            (alpha 1)
+          )
+          ("shop"
+            (alpha 1)
+          )
+          ("SSB_AS"
+            (alpha 1)
+          )
+          ("SSH_MS"
+            (alpha 1)
+          )
+          ("SSH_AS"
+            (alpha 1)
+          )
+          ("pathing"
+            (alpha 1)
+          )
+          ("background"
+            (alpha 1)
+          )
+          ("SSH_TC"
+            (alpha 1)
+          )
+          ("SSB_MS"
+            (alpha 1)
+          )
+          ("SSB_TC"
+            (alpha 1)
+          )
+        )
+      )
+    )
+    (pennmap #f)
+    (doommap #f)
+    ("iceberg_reveal"
+      (moatart #f)
+      (firecrystal #f)
+      (castle #f)
+      (oasisart #f)
+      (time #f)
+      (coins #f)
+      (mineshaft #f)
+      (crystalart #f)
+      (aircrystal #f)
+      (frags #f)
+      (secrets #f)
+      (airship #f)
+      (earthcrystal #f)
+      (star #f)
+    )
+    ("iceberg_bonus"
+      (moatart #f)
+      (firecrystal #f)
+      (castle #f)
+      (oasisart #f)
+      (time #f)
+      (coins #f)
+      (mineshaft #f)
+      (crystalart #f)
+      (aircrystal #f)
+      (frags #f)
+      (secrets #f)
+      (airship #f)
+      (earthcrystal #f)
+      (star #f)
+    )
+    (mattmap #t)
+    (hard #t)
+    (easy #f)
+  )
+)
