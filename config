@@ -158,6 +158,10 @@
   )
   (addons
     (addon
+      (id "lmh-matties-world")
+      (enabled #t)
+    )
+    (addon
       (id "lolkat-levels")
       (enabled #t)
     )
@@ -175,10 +179,6 @@
     )
     (addon
       (id "semajd-valley-of-chaos")
-      (enabled #t)
-    )
-    (addon
-      (id "lmh-matties-world")
       (enabled #t)
     )
   )
