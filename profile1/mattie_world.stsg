@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Mattie's Iceberg (7/23)")
+  (title "Mattie's Iceberg (9/23)")
   (tux
-    (bonus "growup")
-    (fireflowers 0)
+    (bonus "fireflower")
+    (fireflowers 10000)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 199)
+    (coins 9999)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -17,7 +17,16 @@
         ("levels"
           ("mattie_iceberg/Oasis.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 10.78504)
+              (secrets-found-total 3)
+              (badguys-killed-total 25)
+              (coins-collected-total 90)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("mattie_iceberg/Trophy.stl"
             (perfect #f)
@@ -42,7 +51,16 @@
           )
           ("mattie_iceberg/L_Wall.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 3)
+              (secrets-found 0)
+              (time-needed 104.8016)
+              (secrets-found-total 1)
+              (badguys-killed-total 65)
+              (coins-collected-total 40)
+              (badguys-killed 48)
+            )
+            (solved #t)
           )
           ("mattie_iceberg/S_Airship.stl"
             (perfect #f)
@@ -172,8 +190,8 @@
           )
         )
         ("tux"
-          (y 22)
-          (x 18)
+          (y 19)
+          (x 17)
           (back "east")
         )
         ("tilemaps"
