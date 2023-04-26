@@ -1,0 +1,283 @@
+(supertux-savegame
+  (version 1)
+  (title "Underground Factory - Factory Island (2/12)")
+  (tux
+    (bonus "fireflower")
+    (fireflowers 9999)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 9999)
+    (worldmap-sprite "/images/worldmap/common/tux.sprite")
+    (last-worldmap "/levels/industrial/worldmap_factory2.stwm")
+  )
+  (state
+    ("worlds"
+      ("/levels/industrial/worldmap.stwm"
+        ("sprite-changes"
+          ("17_36"
+            (show-stay-action #f)
+          )
+          ("17_14"
+            (show-stay-action #f)
+          )
+          ("17_34"
+            (show-stay-action #f)
+          )
+          ("17_12"
+            (show-stay-action #f)
+          )
+        )
+        ("tux"
+          (y 12)
+          (x 17)
+          (back "south")
+        )
+        ("levels"
+          ("CSecret1.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 43.36405)
+              (secrets-found-total 0)
+              (badguys-killed-total 12)
+              (coins-collected-total 34)
+              (badguys-killed 0)
+            )
+            (solved #t)
+          )
+          ("ECutscene1.stl"
+            (perfect #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 42.53908)
+              (secrets-found-total 0)
+              (badguys-killed-total 0)
+              (coins-collected-total 0)
+              (badguys-killed 0)
+            )
+            (solved #t)
+          )
+          ("AForest4.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 41)
+              (secrets-found 0)
+              (time-needed 122.5158)
+              (secrets-found-total 0)
+              (badguys-killed-total 12)
+              (coins-collected-total 76)
+              (badguys-killed 10)
+            )
+            (solved #t)
+          )
+          ("AForest1.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 42)
+              (secrets-found 0)
+              (time-needed 81.23751)
+              (secrets-found-total 0)
+              (badguys-killed-total 12)
+              (coins-collected-total 52)
+              (badguys-killed 6)
+            )
+            (solved #t)
+          )
+          ("AForest2.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 37)
+              (secrets-found 0)
+              (time-needed 61.7083)
+              (secrets-found-total 1)
+              (badguys-killed-total 17)
+              (coins-collected-total 45)
+              (badguys-killed 10)
+            )
+            (solved #t)
+          )
+          ("AForest3.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 56)
+              (secrets-found 0)
+              (time-needed 125.7707)
+              (secrets-found-total 0)
+              (badguys-killed-total 24)
+              (coins-collected-total 89)
+              (badguys-killed 8)
+            )
+            (solved #t)
+          )
+        )
+        ("tilemaps"
+          ("secret_path"
+            (alpha 1)
+          )
+          ("decoration_behind"
+            (alpha 1)
+          )
+          ("background"
+            (alpha 1)
+          )
+          ("path"
+            (alpha 1)
+          )
+          ("decoration_above"
+            (alpha 1)
+          )
+        )
+      )
+      ("/levels/industrial/worldmap_factory1.stwm"
+        ("sprite-changes"
+          ("17_58"
+            (show-stay-action #f)
+          )
+          ("17_19"
+            (show-stay-action #f)
+          )
+          ("17_20"
+            (show-stay-action #t)
+          )
+        )
+        ("tux"
+          (y 14)
+          (x 31)
+          (back "west")
+        )
+        ("levels"
+          ("BFactory2.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 42)
+              (secrets-found 0)
+              (time-needed 91.18211)
+              (secrets-found-total 0)
+              (badguys-killed-total 16)
+              (coins-collected-total 69)
+              (badguys-killed 11)
+            )
+            (solved #t)
+          )
+          ("BFactory1.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 42)
+              (secrets-found 0)
+              (time-needed 65.21816)
+              (secrets-found-total 0)
+              (badguys-killed-total 14)
+              (coins-collected-total 49)
+              (badguys-killed 7)
+            )
+            (solved #t)
+          )
+          ("CSecret3.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 46)
+              (secrets-found 0)
+              (time-needed 40.55916)
+              (secrets-found-total 1)
+              (badguys-killed-total 26)
+              (coins-collected-total 78)
+              (badguys-killed 23)
+            )
+            (solved #t)
+          )
+        )
+        ("tilemaps"
+          ("decorations_above"
+            (alpha 1)
+          )
+        )
+      )
+      ("/levels/industrial/worldmap_factory2.stwm"
+        ("levels"
+          ("CSecret4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("BFactory3.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 94)
+              (secrets-found 0)
+              (time-needed 65.95313)
+              (secrets-found-total 1)
+              (badguys-killed-total 24)
+              (coins-collected-total 137)
+              (badguys-killed 21)
+            )
+            (solved #t)
+          )
+          ("BFactory4.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 22)
+              (secrets-found 0)
+              (time-needed 140.1401)
+              (secrets-found-total 1)
+              (badguys-killed-total 12)
+              (coins-collected-total 58)
+              (badguys-killed 2)
+            )
+            (solved #t)
+          )
+          ("BFactory6.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("CSecret2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("DCredits.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("BFactory5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("BFactory10.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("BFactory9.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("BFactory11.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("BFactory8.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("BFactory7.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tux"
+          (y 18)
+          (x 33)
+          (back "west")
+        )
+        ("tilemaps"
+          ("paths"
+            (alpha 1)
+          )
+          ("decoration"
+            (alpha 1)
+          )
+        )
+      )
+    )
+  )
+)

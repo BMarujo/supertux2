@@ -181,6 +181,10 @@
       (id "semajd-valley-of-chaos")
       (enabled #t)
     )
+    (addon
+      (id "industrial-island")
+      (enabled #t)
+    )
   )
   (editor
     (autosave_frequency 5)
