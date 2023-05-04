@@ -158,6 +158,10 @@
   )
   (addons
     (addon
+      (id "industrial-island")
+      (enabled #t)
+    )
+    (addon
       (id "lmh-matties-world")
       (enabled #t)
     )
@@ -179,10 +183,6 @@
     )
     (addon
       (id "semajd-valley-of-chaos")
-      (enabled #t)
-    )
-    (addon
-      (id "industrial-island")
       (enabled #t)
     )
   )
