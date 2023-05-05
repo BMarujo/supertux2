@@ -185,6 +185,10 @@
       (id "semajd-valley-of-chaos")
       (enabled #t)
     )
+    (addon
+      (id "michel-the-frozen-mountains")
+      (enabled #t)
+    )
   )
   (editor
     (autosave_frequency 5)
