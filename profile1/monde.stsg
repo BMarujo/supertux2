@@ -1,0 +1,159 @@
+(supertux-savegame
+  (version 1)
+  (title "The Frozen Mountains (4/22)")
+  (tux
+    (bonus "fireflower")
+    (fireflowers 9999)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 9999)
+    (worldmap-sprite "images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    ("worlds"
+      ("/levels/monde/worldmap.stwm"
+        ("levels"
+          ("niveau22.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 104)
+              (secrets-found 0)
+              (time-needed 134.0804)
+              (secrets-found-total 2)
+              (badguys-killed-total 66)
+              (coins-collected-total 407)
+              (badguys-killed 34)
+            )
+            (solved #t)
+          )
+          ("niveau3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau9.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau17.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau10.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau14.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau13.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau19.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau21.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau6.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 229)
+              (secrets-found 2)
+              (time-needed 219.8169)
+              (secrets-found-total 2)
+              (badguys-killed-total 46)
+              (coins-collected-total 359)
+              (badguys-killed 30)
+            )
+            (solved #t)
+          )
+          ("niveau20.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau12.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau11.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 163)
+              (secrets-found 1)
+              (time-needed 187.9882)
+              (secrets-found-total 2)
+              (badguys-killed-total 79)
+              (coins-collected-total 416)
+              (badguys-killed 39)
+            )
+            (solved #t)
+          )
+          ("niveau8.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau7.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau18.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau16.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 45)
+              (secrets-found 0)
+              (time-needed 69.62798)
+              (secrets-found-total 0)
+              (badguys-killed-total 33)
+              (coins-collected-total 67)
+              (badguys-killed 8)
+            )
+            (solved #t)
+          )
+          ("niveau1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niveau15.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tux"
+          (y 8)
+          (x 11)
+          (back "west")
+        )
+        ("tilemaps"
+          ("Interactive"
+            (alpha 1)
+          )
+          ("Foreground"
+            (alpha 1)
+          )
+        )
+      )
+    )
+  )
+)
