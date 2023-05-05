@@ -170,6 +170,10 @@
       (enabled #t)
     )
     (addon
+      (id "michel-the-frozen-mountains")
+      (enabled #t)
+    )
+    (addon
       (id "niso-yetis-revenge")
       (enabled #t)
     )
@@ -183,10 +187,6 @@
     )
     (addon
       (id "semajd-valley-of-chaos")
-      (enabled #t)
-    )
-    (addon
-      (id "michel-the-frozen-mountains")
       (enabled #t)
     )
   )
