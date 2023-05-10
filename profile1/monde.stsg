@@ -1,6 +1,6 @@
 (supertux-savegame
   (version 1)
-  (title "The Frozen Mountains (9/22)")
+  (title "The Frozen Mountains (19/22)")
   (tux
     (bonus "fireflower")
     (fireflowers 9999)
@@ -30,11 +30,29 @@
           )
           ("niveau3.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 38)
+              (secrets-found 0)
+              (time-needed 123.5058)
+              (secrets-found-total 1)
+              (badguys-killed-total 27)
+              (coins-collected-total 127)
+              (badguys-killed 23)
+            )
+            (solved #t)
           )
           ("niveau9.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 26)
+              (secrets-found 0)
+              (time-needed 69.118)
+              (secrets-found-total 1)
+              (badguys-killed-total 16)
+              (coins-collected-total 118)
+              (badguys-killed 8)
+            )
+            (solved #t)
           )
           ("niveau17.stl"
             (perfect #f)
@@ -55,7 +73,16 @@
           )
           ("niveau14.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 201)
+              (secrets-found 1)
+              (time-needed 273.7878)
+              (secrets-found-total 2)
+              (badguys-killed-total 13)
+              (coins-collected-total 318)
+              (badguys-killed 9)
+            )
+            (solved #t)
           )
           ("niveau4.stl"
             (perfect #f)
@@ -85,15 +112,42 @@
           )
           ("niveau13.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 88)
+              (secrets-found 0)
+              (time-needed 124.2708)
+              (secrets-found-total 1)
+              (badguys-killed-total 32)
+              (coins-collected-total 138)
+              (badguys-killed 25)
+            )
+            (solved #t)
           )
           ("niveau19.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 121)
+              (secrets-found 0)
+              (time-needed 280.6945)
+              (secrets-found-total 1)
+              (badguys-killed-total 40)
+              (coins-collected-total 366)
+              (badguys-killed 26)
+            )
+            (solved #t)
           )
           ("niveau21.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 43)
+              (secrets-found 0)
+              (time-needed 65.60815)
+              (secrets-found-total 2)
+              (badguys-killed-total 38)
+              (coins-collected-total 314)
+              (badguys-killed 9)
+            )
+            (solved #t)
           )
           ("niveau6.stl"
             (perfect #f)
@@ -110,15 +164,42 @@
           )
           ("niveau20.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 35)
+              (secrets-found 0)
+              (time-needed 73.58782)
+              (secrets-found-total 0)
+              (badguys-killed-total 21)
+              (coins-collected-total 58)
+              (badguys-killed 17)
+            )
+            (solved #t)
           )
           ("niveau5.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 35)
+              (secrets-found 0)
+              (time-needed 79.16759)
+              (secrets-found-total 2)
+              (badguys-killed-total 27)
+              (coins-collected-total 296)
+              (badguys-killed 9)
+            )
+            (solved #t)
           )
           ("niveau12.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 166)
+              (secrets-found 1)
+              (time-needed 91.2721)
+              (secrets-found-total 1)
+              (badguys-killed-total 31)
+              (coins-collected-total 230)
+              (badguys-killed 21)
+            )
+            (solved #t)
           )
           ("niveau11.stl"
             (perfect #f)
@@ -148,7 +229,16 @@
           )
           ("niveau7.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 200)
+              (secrets-found 1)
+              (time-needed 342.2846)
+              (secrets-found-total 1)
+              (badguys-killed-total 24)
+              (coins-collected-total 565)
+              (badguys-killed 19)
+            )
+            (solved #t)
           )
           ("niveau18.stl"
             (perfect #f)
@@ -186,8 +276,8 @@
           )
         )
         ("tux"
-          (y 10)
-          (x 17)
+          (y 2)
+          (x 15)
           (back "west")
         )
         ("tilemaps"
