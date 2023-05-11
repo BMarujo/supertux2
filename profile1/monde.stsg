@@ -1,9 +1,9 @@
 (supertux-savegame
   (version 1)
-  (title "The Frozen Mountains (19/22)")
+  (title "The Frozen Mountains (22/22)")
   (tux
-    (bonus "fireflower")
-    (fireflowers 9999)
+    (bonus "growup")
+    (fireflowers 0)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
@@ -56,7 +56,16 @@
           )
           ("niveau17.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 87)
+              (secrets-found 0)
+              (time-needed 80.89252)
+              (secrets-found-total 1)
+              (badguys-killed-total 12)
+              (coins-collected-total 256)
+              (badguys-killed 6)
+            )
+            (solved #t)
           )
           ("niveau10.stl"
             (perfect #f)
@@ -242,7 +251,16 @@
           )
           ("niveau18.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 57)
+              (secrets-found 0)
+              (time-needed 47.41388)
+              (secrets-found-total 1)
+              (badguys-killed-total 28)
+              (coins-collected-total 285)
+              (badguys-killed 15)
+            )
+            (solved #t)
           )
           ("niveau16.stl"
             (perfect #f)
@@ -272,13 +290,22 @@
           )
           ("niveau15.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 22)
+              (secrets-found 0)
+              (time-needed 44.18901)
+              (secrets-found-total 0)
+              (badguys-killed-total 22)
+              (coins-collected-total 40)
+              (badguys-killed 21)
+            )
+            (solved #t)
           )
         )
         ("tux"
-          (y 2)
-          (x 15)
-          (back "west")
+          (y 17)
+          (x 17)
+          (back "south")
         )
         ("tilemaps"
           ("Interactive"
