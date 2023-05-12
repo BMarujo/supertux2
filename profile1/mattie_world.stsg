@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Mattie's Iceberg (9/23)")
+  (title "Mattie's Iceberg (17/23)")
   (tux
-    (bonus "fireflower")
-    (fireflowers 10000)
+    (bonus "none")
+    (fireflowers 0)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 9999)
+    (coins 1565)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -47,7 +47,16 @@
           )
           ("mattie_iceberg/L_Mineshaft.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 11)
+              (secrets-found 0)
+              (time-needed 55.27356)
+              (secrets-found-total 1)
+              (badguys-killed-total 30)
+              (coins-collected-total 40)
+              (badguys-killed 14)
+            )
+            (solved #t)
           )
           ("mattie_iceberg/L_Wall.stl"
             (perfect #f)
@@ -106,11 +115,29 @@
           )
           ("mattie_iceberg/L_Escape.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 34.97939)
+              (secrets-found-total 0)
+              (badguys-killed-total 5)
+              (coins-collected-total 0)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("mattie_iceberg/ToadCastle.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 176.3636)
+              (secrets-found-total 1)
+              (badguys-killed-total 30)
+              (coins-collected-total 30)
+              (badguys-killed 1)
+            )
+            (solved #t)
           )
           ("mattie_iceberg/L_HighRoute.stl"
             (perfect #f)
@@ -140,19 +167,55 @@
           )
           ("mattie_iceberg/L_MtnPass.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 211.4472)
+              (secrets-found-total 2)
+              (badguys-killed-total 35)
+              (coins-collected-total 90)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("mattie_iceberg/L_Dungeon.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 8)
+              (secrets-found 0)
+              (time-needed 80.83253)
+              (secrets-found-total 1)
+              (badguys-killed-total 25)
+              (coins-collected-total 50)
+              (badguys-killed 7)
+            )
+            (solved #t)
           )
           ("mattie_iceberg/L_Moat.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 4)
+              (secrets-found 0)
+              (time-needed 272.0611)
+              (secrets-found-total 1)
+              (badguys-killed-total 60)
+              (coins-collected-total 40)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("mattie_iceberg/Waldo.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 4)
+              (secrets-found 0)
+              (time-needed 3.61501)
+              (secrets-found-total 1)
+              (badguys-killed-total 0)
+              (coins-collected-total 130)
+              (badguys-killed 0)
+            )
+            (solved #t)
           )
           ("mattie_iceberg/L_Cavern.stl"
             (perfect #f)
@@ -169,7 +232,16 @@
           )
           ("mattie_iceberg/L_Quarry.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 4)
+              (secrets-found 0)
+              (time-needed 27.2097)
+              (secrets-found-total 1)
+              (badguys-killed-total 20)
+              (coins-collected-total 50)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("mattie_iceberg/MidwayCastle.stl"
             (perfect #f)
@@ -190,9 +262,9 @@
           )
         )
         ("tux"
-          (y 19)
-          (x 17)
-          (back "east")
+          (y 5)
+          (x 15)
+          (back "south")
         )
         ("tilemaps"
           ("foredetail"

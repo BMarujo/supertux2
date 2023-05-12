@@ -189,6 +189,10 @@
       (id "semajd-valley-of-chaos")
       (enabled #t)
     )
+    (addon
+      (id "treskalle-island-of-moob")
+      (enabled #t)
+    )
   )
   (editor
     (autosave_frequency 5)

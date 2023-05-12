@@ -1,0 +1,218 @@
+(supertux-savegame
+  (version 1)
+  (title "Island of Moob (3/31)")
+  (tux
+    (bonus "none")
+    (fireflowers 0)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 138)
+    (worldmap-sprite "images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    ("worlds"
+      ("/levels/moob-island/worldmap.stwm"
+        ("sprite-changes"
+          ("114_22"
+            (show-stay-action #f)
+          )
+          ("101_22"
+            (show-stay-action #f)
+          )
+          ("115_22"
+            (show-stay-action #f)
+          )
+          ("113_22"
+            (show-stay-action #f)
+          )
+          ("99_22"
+            (show-stay-action #f)
+          )
+          ("123_17"
+            (show-stay-action #f)
+          )
+          ("91_22"
+            (show-stay-action #f)
+          )
+          ("100_22"
+            (show-stay-action #f)
+          )
+          ("124_17"
+            (show-stay-action #f)
+          )
+          ("90_22"
+            (show-stay-action #f)
+          )
+        )
+        ("tux"
+          (y 14)
+          (x 21)
+          (back "west")
+        )
+        ("levels"
+          ("levels/epilogue.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/village.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/soup_cannon.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("secrets/yeti.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/river.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/big-mpit.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/gg-mountain.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/not-welcome.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/intro.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 4)
+              (secrets-found 0)
+              (time-needed 109.0314)
+              (secrets-found-total 0)
+              (badguys-killed-total 5)
+              (coins-collected-total 12)
+              (badguys-killed 1)
+            )
+            (solved #t)
+          )
+          ("secrets/random.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("secrets/village-old.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/submarine.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/2towers.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/tower.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/fortress.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/icefloe.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/mount-iceshrub.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/many-mpits.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/nightmare.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/harbour.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/electric.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("secrets/cheat.stl"
+            (perfect #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 128.4556)
+              (secrets-found-total 0)
+              (badguys-killed-total 0)
+              (coins-collected-total 0)
+              (badguys-killed 0)
+            )
+            (solved #t)
+          )
+          ("levels/moat-again.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("secrets/quiz.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/airship.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/up-or-down.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 34)
+              (secrets-found 0)
+              (time-needed 46.9039)
+              (secrets-found-total 0)
+              (badguys-killed-total 45)
+              (coins-collected-total 125)
+              (badguys-killed 6)
+            )
+            (solved #t)
+          )
+          ("levels/last-mpit.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/city.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/moat.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/antarctic_eye.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("levels/desert.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tilemaps"
+          ("Interactive"
+            (alpha 1)
+          )
+          ("Background"
+            (alpha 1)
+          )
+        )
+      )
+    )
+  )
+)
