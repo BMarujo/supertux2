@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Island of Moob (20/31)")
+  (title "Island of Moob (24/31)")
   (tux
-    (bonus "growup")
+    (bonus "none")
     (fireflowers 0)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 645)
+    (coins 1563)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -47,14 +47,23 @@
           )
         )
         ("tux"
-          (y 16)
-          (x 76)
-          (back "east")
+          (y 22)
+          (x 88)
+          (back "west")
         )
         ("levels"
           ("levels/epilogue.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 62.05329)
+              (secrets-found-total 0)
+              (badguys-killed-total 5)
+              (coins-collected-total 0)
+              (badguys-killed 0)
+            )
+            (solved #t)
           )
           ("levels/village.stl"
             (perfect #f)
@@ -71,7 +80,16 @@
           )
           ("levels/soup_cannon.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 2)
+              (secrets-found 0)
+              (time-needed 179.0335)
+              (secrets-found-total 2)
+              (badguys-killed-total 21)
+              (coins-collected-total 6)
+              (badguys-killed 6)
+            )
+            (solved #t)
           )
           ("secrets/yeti.stl"
             (perfect #f)
@@ -127,7 +145,16 @@
           )
           ("levels/not-welcome.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 3)
+              (secrets-found 0)
+              (time-needed 34.7544)
+              (secrets-found-total 0)
+              (badguys-killed-total 13)
+              (coins-collected-total 3)
+              (badguys-killed 6)
+            )
+            (solved #t)
           )
           ("levels/intro.stl"
             (perfect #f)
@@ -169,7 +196,16 @@
           )
           ("levels/tower.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 585.5969)
+              (secrets-found-total 2)
+              (badguys-killed-total 82)
+              (coins-collected-total 79)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("levels/fortress.stl"
             (perfect #f)
