@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Island of Moob (24/31)")
+  (title "Island of Moob (25/31)")
   (tux
     (bonus "none")
     (fireflowers 0)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 1563)
+    (coins 1574)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -256,7 +256,16 @@
           )
           ("levels/harbour.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 11)
+              (secrets-found 2)
+              (time-needed 69.73298)
+              (secrets-found-total 3)
+              (badguys-killed-total 18)
+              (coins-collected-total 94)
+              (badguys-killed 9)
+            )
+            (solved #t)
           )
           ("levels/electric.stl"
             (perfect #f)
