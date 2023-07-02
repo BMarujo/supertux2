@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Island of Moob (25/31)")
+  (title "Island of Moob (31/31)")
   (tux
-    (bonus "none")
-    (fireflowers 0)
+    (bonus "fireflower")
+    (fireflowers 6)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 1574)
+    (coins 1373)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -16,7 +16,7 @@
       ("/levels/moob-island/worldmap.stwm"
         ("sprite-changes"
           ("114_22"
-            (show-stay-action #f)
+            (show-stay-action #t)
           )
           ("101_22"
             (show-stay-action #f)
@@ -31,13 +31,13 @@
             (show-stay-action #f)
           )
           ("123_17"
-            (show-stay-action #f)
+            (show-stay-action #t)
           )
           ("91_22"
-            (show-stay-action #f)
+            (show-stay-action #t)
           )
           ("100_22"
-            (show-stay-action #f)
+            (show-stay-action #t)
           )
           ("124_17"
             (show-stay-action #f)
@@ -47,9 +47,9 @@
           )
         )
         ("tux"
-          (y 22)
-          (x 88)
-          (back "west")
+          (y 12)
+          (x 19)
+          (back "east")
         )
         ("levels"
           ("levels/epilogue.stl"
@@ -171,7 +171,16 @@
           )
           ("secrets/random.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 77)
+              (secrets-found 0)
+              (time-needed 176.0037)
+              (secrets-found-total 0)
+              (badguys-killed-total 30)
+              (coins-collected-total 1177)
+              (badguys-killed 7)
+            )
+            (solved #t)
           )
           ("secrets/village-old.stl"
             (perfect #f)
@@ -188,11 +197,29 @@
           )
           ("levels/submarine.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 1)
+              (secrets-found 0)
+              (time-needed 139.7201)
+              (secrets-found-total 0)
+              (badguys-killed-total 53)
+              (coins-collected-total 1)
+              (badguys-killed 38)
+            )
+            (solved #t)
           )
           ("levels/2towers.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 163.5242)
+              (secrets-found-total 2)
+              (badguys-killed-total 24)
+              (coins-collected-total 120)
+              (badguys-killed 2)
+            )
+            (solved #t)
           )
           ("levels/tower.stl"
             (perfect #f)
@@ -209,11 +236,29 @@
           )
           ("levels/fortress.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 28)
+              (secrets-found 0)
+              (time-needed 100.8117)
+              (secrets-found-total 1)
+              (badguys-killed-total 34)
+              (coins-collected-total 155)
+              (badguys-killed 21)
+            )
+            (solved #t)
           )
           ("levels/icefloe.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 21.11995)
+              (secrets-found-total 0)
+              (badguys-killed-total 29)
+              (coins-collected-total 28)
+              (badguys-killed 0)
+            )
+            (solved #t)
           )
           ("levels/mount-iceshrub.stl"
             (perfect #f)
@@ -386,7 +431,16 @@
           )
           ("levels/antarctic_eye.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 25)
+              (secrets-found 0)
+              (time-needed 85.10735)
+              (secrets-found-total 1)
+              (badguys-killed-total 19)
+              (coins-collected-total 141)
+              (badguys-killed 14)
+            )
+            (solved #t)
           )
           ("levels/desert.stl"
             (perfect #f)
