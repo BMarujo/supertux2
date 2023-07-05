@@ -167,11 +167,11 @@
     )
     (addon
       (id "lolkat-levels")
-      (enabled #t)
+      (enabled #f)
     )
     (addon
       (id "michel-the-frozen-mountains")
-      (enabled #t)
+      (enabled #f)
     )
     (addon
       (id "niso-yetis-revenge")
@@ -179,19 +179,19 @@
     )
     (addon
       (id "octo-levels")
-      (enabled #t)
+      (enabled #f)
     )
     (addon
       (id "rubberduck-levels")
-      (enabled #t)
+      (enabled #f)
     )
     (addon
       (id "semajd-valley-of-chaos")
-      (enabled #t)
+      (enabled #f)
     )
     (addon
       (id "treskalle-island-of-moob")
-      (enabled #t)
+      (enabled #f)
     )
   )
   (editor
