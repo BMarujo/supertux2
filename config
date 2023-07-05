@@ -158,6 +158,10 @@
   )
   (addons
     (addon
+      (id "hume-worldmaps")
+      (enabled #t)
+    )
+    (addon
       (id "industrial-island")
       (enabled #f)
     )

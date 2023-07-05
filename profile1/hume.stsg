@@ -1,0 +1,307 @@
+(supertux-savegame
+  (version 1)
+  (title "Hume's islands (0/49)")
+  (tux
+    (bonus "fireflower")
+    (fireflowers 9999)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 100)
+    (worldmap-sprite "images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    ("worlds"
+      ("/levels/hume/worldmap.stwm"
+        ("sprite-changes"
+          ("12_20"
+            (show-stay-action #f)
+          )
+          ("9_23"
+            (show-stay-action #f)
+          )
+          ("3_27"
+            (show-stay-action #f)
+          )
+          ("9_31"
+            (show-stay-action #f)
+          )
+          ("15_31"
+            (show-stay-action #f)
+          )
+          ("11_20"
+            (show-stay-action #f)
+          )
+          ("7_10"
+            (show-stay-action #f)
+          )
+          ("3_31"
+            (show-stay-action #f)
+          )
+          ("14_31"
+            (show-stay-action #f)
+          )
+          ("9_27"
+            (show-stay-action #f)
+          )
+        )
+        ("tux"
+          (y 1)
+          (x 6)
+          (back "west")
+        )
+        ("levels"
+          ("df-level4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("water5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("gotofly.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("forestlevel.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("boss2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("snowhill.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("tunel.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("secret1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("bonus2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("df-level5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("secret3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("secret0.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("problems.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("archivement.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("bonus1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("df-level2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("czyplatform.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("df-level1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("boss1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("boss4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("layer.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("fly.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("water2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("ss-level3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("hedgehoglaunch.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("ss-level2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("ss-level1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("land.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("ss-level4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("room.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("entercastle.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("water4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("water3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("tower.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("tree.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("water1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("boss3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("df-level3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("secret4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("secret2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("6crystal.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("secret5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("totem.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("bonus3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("bonus5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("crystallos.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("bonus4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("boss5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("platforms.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tilemaps"
+          ("Interactive"
+            (alpha 1)
+          )
+          ("Foreground"
+            (alpha 1)
+          )
+          ("secret"
+            (alpha 1)
+          )
+          ("frforeground"
+            (alpha 1)
+          )
+        )
+      )
+    )
+    ("hume_archivements"
+      (a #t)
+      (c #t)
+      (b #f)
+      (e #t)
+      (d #f)
+      (g #f)
+      (f #f)
+      (i #f)
+      (ab #f)
+      (aa #f)
+      (j #f)
+      (m #f)
+      (af #f)
+      (ae #f)
+      (n #f)
+      (q #f)
+      (aj #f)
+      (ai #f)
+      (r #f)
+      (u #f)
+      (t #f)
+      (w #f)
+      (v #f)
+      (y #f)
+      (x #f)
+      (z #f)
+      (k #f)
+      (h #f)
+      (ad #f)
+      (ac #f)
+      (o #f)
+      (l #f)
+      (ah #f)
+      (ag #f)
+      (s #f)
+      (p #f)
+    )
+  )
+)

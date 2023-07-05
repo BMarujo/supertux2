@@ -1,0 +1,215 @@
+(supertux-savegame
+  (version 1)
+  (title "Hume's rainbow cave (0/44)")
+  (tux
+    (bonus "none")
+    (fireflowers 0)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 100)
+    (worldmap-sprite "images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    ("worlds"
+      ("/levels/hume_rainbow_cave/worldmap.stwm"
+        ("levels"
+          ("red5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("white2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("white1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("yellow2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("purple1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("orange2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("purple4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("red2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("orange3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("orange5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("red4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("yellow1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("yellow5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("orange4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("blue4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("orange1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("white6.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("yellow3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("entercode.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("red3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("green2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("green1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("white5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("purple3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("white4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("orange6.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("purple2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("green5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("purple6.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("blue6.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("yellow4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("blue5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("blue3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("purple5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("blue1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("red6.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("red1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("green6.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("archivements.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("yellow6.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("blue2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("white3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("green3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("green4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tux"
+          (y 4)
+          (x 3)
+          (back "none")
+        )
+        ("tilemaps"
+          ("Interactive"
+            (alpha 1)
+          )
+          ("Foreground"
+            (alpha 1)
+          )
+          ("frfr"
+            (alpha 1)
+          )
+        )
+      )
+    )
+    (jeskyne #t)
+  )
+)

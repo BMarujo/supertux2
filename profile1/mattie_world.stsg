@@ -1,6 +1,6 @@
 (supertux-savegame
   (version 1)
-  (title "Mattie's Iceberg (17/23)")
+  (title "DOOM Islands (0/20)")
   (tux
     (bonus "none")
     (fireflowers 0)
@@ -9,261 +9,262 @@
     (earthflowers 0)
     (coins 1565)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
-    (last-worldmap "")
+    (last-worldmap "levels/mattie_world/doom_islands/worldmap.stwm")
   )
   (state
+    (underground #f)
     ("worlds"
       ("/levels/mattie_world/worldmap.stwm"
         ("levels"
           ("mattie_iceberg/Oasis.stl"
-            (perfect #f)
+            (solved #t)
             ("statistics"
               (coins-collected 0)
               (secrets-found 0)
-              (time-needed 10.78504)
+              (time-needed 10.54503)
               (secrets-found-total 3)
-              (badguys-killed-total 25)
-              (coins-collected-total 90)
               (badguys-killed 2)
+              (coins-collected-total 90)
+              (badguys-killed-total 25)
             )
-            (solved #t)
+            (perfect #f)
           )
           ("mattie_iceberg/Trophy.stl"
-            (perfect #f)
             (solved #f)
+            (perfect #f)
           )
           ("mattie_iceberg/L_ScarySkies.stl"
-            (perfect #f)
+            (solved #t)
             ("statistics"
               (coins-collected 7)
               (secrets-found 0)
               (time-needed 51.04374)
               (secrets-found-total 1)
-              (badguys-killed-total 20)
-              (coins-collected-total 40)
               (badguys-killed 5)
+              (coins-collected-total 40)
+              (badguys-killed-total 20)
             )
-            (solved #t)
+            (perfect #f)
           )
           ("mattie_iceberg/L_Mineshaft.stl"
-            (perfect #f)
+            (solved #t)
             ("statistics"
               (coins-collected 11)
               (secrets-found 0)
               (time-needed 55.27356)
               (secrets-found-total 1)
-              (badguys-killed-total 30)
-              (coins-collected-total 40)
               (badguys-killed 14)
+              (coins-collected-total 40)
+              (badguys-killed-total 30)
             )
-            (solved #t)
+            (perfect #f)
           )
           ("mattie_iceberg/L_Wall.stl"
-            (perfect #f)
+            (solved #t)
             ("statistics"
               (coins-collected 3)
               (secrets-found 0)
               (time-needed 104.8016)
               (secrets-found-total 1)
-              (badguys-killed-total 65)
-              (coins-collected-total 40)
               (badguys-killed 48)
+              (coins-collected-total 40)
+              (badguys-killed-total 65)
             )
-            (solved #t)
+            (perfect #f)
           )
           ("mattie_iceberg/S_Airship.stl"
-            (perfect #f)
             (solved #f)
-          )
-          ("mattie_iceberg/L_ThreeLanterns.stl"
             (perfect #f)
-            ("statistics"
-              (coins-collected 7)
-              (secrets-found 0)
-              (time-needed 105.4915)
-              (secrets-found-total 4)
-              (badguys-killed-total 35)
-              (coins-collected-total 80)
-              (badguys-killed 3)
-            )
-            (solved #t)
-          )
-          ("TimeWarp.stl"
-            (perfect #f)
-            (solved #f)
-          )
-          ("mattie_iceberg/L_DOOM.stl"
-            (perfect #f)
-            ("statistics"
-              (coins-collected 20)
-              (secrets-found 0)
-              (time-needed 31.91951)
-              (secrets-found-total 0)
-              (badguys-killed-total 25)
-              (coins-collected-total 50)
-              (badguys-killed 4)
-            )
-            (solved #t)
-          )
-          ("mattie_iceberg/S_ToadCastle.stl"
-            (perfect #f)
-            (solved #f)
-          )
-          ("mattie_iceberg/S_Mineshaft.stl"
-            (perfect #f)
-            (solved #f)
-          )
-          ("mattie_iceberg/L_Escape.stl"
-            (perfect #f)
-            ("statistics"
-              (coins-collected 0)
-              (secrets-found 0)
-              (time-needed 34.97939)
-              (secrets-found-total 0)
-              (badguys-killed-total 5)
-              (coins-collected-total 0)
-              (badguys-killed 2)
-            )
-            (solved #t)
-          )
-          ("mattie_iceberg/ToadCastle.stl"
-            (perfect #f)
-            ("statistics"
-              (coins-collected 0)
-              (secrets-found 0)
-              (time-needed 176.3636)
-              (secrets-found-total 1)
-              (badguys-killed-total 30)
-              (coins-collected-total 30)
-              (badguys-killed 1)
-            )
-            (solved #t)
           )
           ("mattie_iceberg/L_HighRoute.stl"
-            (perfect #f)
+            (solved #t)
             ("statistics"
               (coins-collected 8)
               (secrets-found 0)
               (time-needed 55.43856)
               (secrets-found-total 2)
-              (badguys-killed-total 25)
-              (coins-collected-total 40)
               (badguys-killed 4)
-            )
-            (solved #t)
-          )
-          ("mattie_iceberg/L_Fields.stl"
-            (perfect #f)
-            ("statistics"
-              (coins-collected 3)
-              (secrets-found 0)
-              (time-needed 22.57489)
-              (secrets-found-total 1)
-              (badguys-killed-total 15)
-              (coins-collected-total 60)
-              (badguys-killed 5)
-            )
-            (solved #t)
-          )
-          ("mattie_iceberg/L_MtnPass.stl"
-            (perfect #f)
-            ("statistics"
-              (coins-collected 0)
-              (secrets-found 0)
-              (time-needed 211.4472)
-              (secrets-found-total 2)
-              (badguys-killed-total 35)
-              (coins-collected-total 90)
-              (badguys-killed 5)
-            )
-            (solved #t)
-          )
-          ("mattie_iceberg/L_Dungeon.stl"
-            (perfect #f)
-            ("statistics"
-              (coins-collected 8)
-              (secrets-found 0)
-              (time-needed 80.83253)
-              (secrets-found-total 1)
-              (badguys-killed-total 25)
-              (coins-collected-total 50)
-              (badguys-killed 7)
-            )
-            (solved #t)
-          )
-          ("mattie_iceberg/L_Moat.stl"
-            (perfect #f)
-            ("statistics"
-              (coins-collected 4)
-              (secrets-found 0)
-              (time-needed 272.0611)
-              (secrets-found-total 1)
-              (badguys-killed-total 60)
               (coins-collected-total 40)
-              (badguys-killed 2)
+              (badguys-killed-total 25)
             )
-            (solved #t)
-          )
-          ("mattie_iceberg/Waldo.stl"
             (perfect #f)
-            ("statistics"
-              (coins-collected 4)
-              (secrets-found 0)
-              (time-needed 3.61501)
-              (secrets-found-total 1)
-              (badguys-killed-total 0)
-              (coins-collected-total 130)
-              (badguys-killed 0)
-            )
-            (solved #t)
           )
-          ("mattie_iceberg/L_Cavern.stl"
+          ("mattie_iceberg/LSD.stl"
+            (solved #f)
             (perfect #f)
-            ("statistics"
-              (coins-collected 6)
-              (secrets-found 0)
-              (time-needed 17.91008)
-              (secrets-found-total 1)
-              (badguys-killed-total 10)
-              (coins-collected-total 20)
-              (badguys-killed 1)
-            )
-            (solved #t)
           )
-          ("mattie_iceberg/L_Quarry.stl"
-            (perfect #f)
+          ("mattie_iceberg/L_DOOM.stl"
+            (solved #t)
             ("statistics"
-              (coins-collected 4)
+              (coins-collected 20)
               (secrets-found 0)
-              (time-needed 27.2097)
-              (secrets-found-total 1)
-              (badguys-killed-total 20)
+              (time-needed 31.91951)
+              (secrets-found-total 0)
+              (badguys-killed 4)
               (coins-collected-total 50)
-              (badguys-killed 5)
+              (badguys-killed-total 25)
             )
-            (solved #t)
+            (perfect #f)
           )
           ("mattie_iceberg/MidwayCastle.stl"
-            (perfect #f)
+            (solved #t)
             ("statistics"
               (coins-collected 2)
               (secrets-found 0)
               (time-needed 94.73696)
               (secrets-found-total 0)
-              (badguys-killed-total 21)
-              (coins-collected-total 20)
               (badguys-killed 21)
+              (coins-collected-total 20)
+              (badguys-killed-total 21)
             )
-            (solved #t)
-          )
-          ("mattie_iceberg/LSD.stl"
             (perfect #f)
+          )
+          ("mattie_iceberg/L_ThreeLanterns.stl"
+            (solved #t)
+            ("statistics"
+              (coins-collected 7)
+              (secrets-found 0)
+              (time-needed 105.4915)
+              (secrets-found-total 4)
+              (badguys-killed 3)
+              (coins-collected-total 80)
+              (badguys-killed-total 35)
+            )
+            (perfect #f)
+          )
+          ("mattie_iceberg/S_Mineshaft.stl"
             (solved #f)
+            (perfect #f)
+          )
+          ("mattie_iceberg/Waldo.stl"
+            (solved #t)
+            ("statistics"
+              (coins-collected 4)
+              (secrets-found 0)
+              (time-needed 3.61501)
+              (secrets-found-total 1)
+              (badguys-killed 0)
+              (coins-collected-total 130)
+              (badguys-killed-total 0)
+            )
+            (perfect #f)
+          )
+          ("TimeWarp.stl"
+            (solved #f)
+            (perfect #f)
+          )
+          ("mattie_iceberg/L_Fields.stl"
+            (solved #t)
+            ("statistics"
+              (coins-collected 3)
+              (secrets-found 0)
+              (time-needed 22.57489)
+              (secrets-found-total 1)
+              (badguys-killed 5)
+              (coins-collected-total 60)
+              (badguys-killed-total 15)
+            )
+            (perfect #f)
+          )
+          ("mattie_iceberg/L_MtnPass.stl"
+            (solved #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 211.4472)
+              (secrets-found-total 2)
+              (badguys-killed 5)
+              (coins-collected-total 90)
+              (badguys-killed-total 35)
+            )
+            (perfect #f)
+          )
+          ("mattie_iceberg/L_Dungeon.stl"
+            (solved #t)
+            ("statistics"
+              (coins-collected 8)
+              (secrets-found 0)
+              (time-needed 80.83253)
+              (secrets-found-total 1)
+              (badguys-killed 7)
+              (coins-collected-total 50)
+              (badguys-killed-total 25)
+            )
+            (perfect #f)
+          )
+          ("mattie_iceberg/L_Moat.stl"
+            (solved #t)
+            ("statistics"
+              (coins-collected 4)
+              (secrets-found 0)
+              (time-needed 272.0611)
+              (secrets-found-total 1)
+              (badguys-killed 2)
+              (coins-collected-total 40)
+              (badguys-killed-total 60)
+            )
+            (perfect #f)
+          )
+          ("mattie_iceberg/S_ToadCastle.stl"
+            (solved #f)
+            (perfect #f)
+          )
+          ("mattie_iceberg/L_Cavern.stl"
+            (solved #t)
+            ("statistics"
+              (coins-collected 6)
+              (secrets-found 0)
+              (time-needed 17.91008)
+              (secrets-found-total 1)
+              (badguys-killed 1)
+              (coins-collected-total 20)
+              (badguys-killed-total 10)
+            )
+            (perfect #f)
+          )
+          ("mattie_iceberg/L_Quarry.stl"
+            (solved #t)
+            ("statistics"
+              (coins-collected 4)
+              (secrets-found 0)
+              (time-needed 27.2097)
+              (secrets-found-total 1)
+              (badguys-killed 5)
+              (coins-collected-total 50)
+              (badguys-killed-total 20)
+            )
+            (perfect #f)
+          )
+          ("mattie_iceberg/L_Escape.stl"
+            (solved #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 34.97939)
+              (secrets-found-total 0)
+              (badguys-killed 2)
+              (coins-collected-total 0)
+              (badguys-killed-total 5)
+            )
+            (perfect #f)
+          )
+          ("mattie_iceberg/ToadCastle.stl"
+            (solved #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 176.3636)
+              (secrets-found-total 1)
+              (badguys-killed 1)
+              (coins-collected-total 30)
+              (badguys-killed-total 30)
+            )
+            (perfect #f)
           )
         )
         ("tux"
-          (y 19)
-          (x 17)
+          (y 21)
+          (x 6)
           (back "east")
         )
         ("tilemaps"
@@ -288,23 +289,198 @@
           ("pathing"
             (alpha 1)
           )
-          ("background"
+          ("SSB_TC"
             (alpha 1)
           )
-          ("SSH_TC"
+          ("background"
             (alpha 1)
           )
           ("SSB_MS"
             (alpha 1)
           )
-          ("SSB_TC"
+          ("SSH_TC"
             (alpha 1)
+          )
+        )
+      )
+      ("/levels/mattie_world/doom_islands/worldmap.stwm"
+        ("sprite-changes"
+          ("11_18"
+            (show-stay-action #f)
+          )
+          ("25_57"
+            (show-stay-action #f)
+          )
+          ("12_31"
+            (show-stay-action #f)
+          )
+          ("31_14"
+            (show-stay-action #f)
+          )
+          ("11_31"
+            (show-stay-action #f)
+          )
+          ("32_9"
+            (show-stay-action #f)
+          )
+          ("6_35"
+            (show-stay-action #f)
+          )
+          ("6_34"
+            (show-stay-action #f)
+          )
+          ("32_8"
+            (show-stay-action #f)
+          )
+          ("31_15"
+            (show-stay-action #f)
+          )
+          ("24_57"
+            (show-stay-action #f)
+          )
+          ("10_18"
+            (show-stay-action #f)
+          )
+          ("36_49"
+            (show-stay-action #f)
+          )
+          ("35_49"
+            (show-stay-action #f)
+          )
+        )
+        ("tux"
+          (y 53)
+          (x 15)
+          (back "none")
+        )
+        ("levels"
+          ("Yeti.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_Dunes.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_Primed.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_Day.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_Thomp.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_Glorious.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_Geode.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Toad_Entry.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Airship.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_Floodlands.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("DecrepitCastle.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_UnderAir.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_SkyFall.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_Escape.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Iceborer.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_Pipes.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_IceFire.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("B_SavagedLands.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("L_RockClimbing.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("B_Arena.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tilemaps"
+          ("underground"
+            (alpha 0)
+          )
+          ("mountain_far"
+            (alpha 1)
+          )
+          ("shortcut"
+            (alpha 0)
+          )
+          ("land"
+            (alpha 1)
+          )
+          ("underground_solid"
+            (alpha 0)
+          )
+          ("pathing"
+            (alpha 1)
+          )
+          ("mountain_near"
+            (alpha 1)
+          )
+          ("detail"
+            (alpha 1)
+          )
+          ("background"
+            (alpha 1)
+          )
+          ("mountain_veryfar"
+            (alpha 1)
+          )
+          ("underground_darkness"
+            (alpha 0)
           )
         )
       )
     )
     (pennmap #f)
-    (doommap #f)
+    ("island_reveal"
+      (skycity #f)
+      (secrets #f)
+      (frags #f)
+      (time #f)
+      (coins #f)
+    )
+    (doommap #t)
     ("iceberg_reveal"
       (moatart #f)
       (firecrystal #f)
@@ -337,8 +513,16 @@
       (aircrystal #f)
       (star #f)
     )
-    (mattmap #t)
-    (hard #t)
+    (mattmap #f)
     (easy #f)
+    ("island_bonus"
+      (skycity #f)
+      (secrets #f)
+      (frags #f)
+      (time #f)
+      (coins #f)
+    )
+    (hard #t)
+    (coin_level_active #f)
   )
 )
