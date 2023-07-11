@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Yeti's Revenge (27/44)")
+  (title "Yeti's Revenge (29/44)")
   (tux
     (bonus "fireflower")
     (fireflowers 9999)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 3239)
+    (coins 591)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -113,7 +113,16 @@
           )
           ("Shaft Racing.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 22)
+              (secrets-found 0)
+              (time-needed 308.862)
+              (secrets-found-total 2)
+              (badguys-killed-total 27)
+              (coins-collected-total 151)
+              (badguys-killed 7)
+            )
+            (solved #t)
           )
           ("Controlling the Temperature.stl"
             (perfect #f)
@@ -301,7 +310,16 @@
           )
           ("The Grand Bridge.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 6)
+              (secrets-found 0)
+              (time-needed 392.1632)
+              (secrets-found-total 1)
+              (badguys-killed-total 21)
+              (coins-collected-total 25)
+              (badguys-killed 5)
+            )
+            (solved #t)
           )
           ("Hail Storm.stl"
             (perfect #f)
@@ -425,8 +443,8 @@
           )
         )
         ("tux"
-          (y 24)
-          (x 13)
+          (y 23)
+          (x 21)
           (back "west")
         )
         ("tilemaps"
@@ -448,7 +466,7 @@
       (worldmap #t)
       (crazy #f)
       (bonus #f)
-      (groundwater #f)
+      (waterfalls #f)
       (freeze #f)
       (staple #f)
       (down #f)
@@ -472,7 +490,7 @@
       (carry #f)
       (hang #f)
       (spooky #f)
-      (waterfalls #f)
+      (groundwater #f)
       (enjoy #f)
       (end #f)
       (spikes #f)
