@@ -2,8 +2,8 @@
   (version 1)
   (title "Hume's islands (2/49)")
   (tux
-    (bonus "none")
-    (fireflowers 0)
+    (bonus "fireflower")
+    (fireflowers 9999)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
