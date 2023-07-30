@@ -1,13 +1,13 @@
 (supertux-savegame
   (version 1)
-  (title "Yeti's Revenge (29/44)")
+  (title "Yeti's Revenge (30/44)")
   (tux
     (bonus "fireflower")
     (fireflowers 9999)
     (iceflowers 0)
     (airflowers 0)
     (earthflowers 0)
-    (coins 591)
+    (coins 428)
     (worldmap-sprite "images/worldmap/common/tux.sprite")
     (last-worldmap "")
   )
@@ -79,7 +79,16 @@
           )
           ("I Go With My Latern.stl"
             (perfect #f)
-            (solved #f)
+            ("statistics"
+              (coins-collected 14)
+              (secrets-found 0)
+              (time-needed 725.053)
+              (secrets-found-total 1)
+              (badguys-killed-total 6)
+              (coins-collected-total 42)
+              (badguys-killed 1)
+            )
+            (solved #t)
           )
           ("Blue Mountain.stl"
             (perfect #f)
@@ -443,9 +452,9 @@
           )
         )
         ("tux"
-          (y 23)
-          (x 21)
-          (back "west")
+          (y 25)
+          (x 19)
+          (back "north")
         )
         ("tilemaps"
           ("secret"
@@ -466,7 +475,7 @@
       (worldmap #t)
       (crazy #f)
       (bonus #f)
-      (waterfalls #f)
+      (groundwater #f)
       (freeze #f)
       (staple #f)
       (down #f)
@@ -490,7 +499,7 @@
       (carry #f)
       (hang #f)
       (spooky #f)
-      (groundwater #f)
+      (waterfalls #f)
       (enjoy #f)
       (end #f)
       (spikes #f)
