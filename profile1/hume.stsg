@@ -1,6 +1,6 @@
 (supertux-savegame
   (version 1)
-  (title "Hume's islands (4/49)")
+  (title "Hume's islands (5/49)")
   (tux
     (bonus "fireflower")
     (fireflowers 10000)
