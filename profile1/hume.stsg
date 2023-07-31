@@ -134,8 +134,17 @@
             (solved #f)
           )
           ("boss1.stl"
-            (perfect #f)
-            (solved #f)
+            (perfect #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (time-needed 1)
+              (secrets-found-total 0)
+              (badguys-killed-total 0)
+              (coins-collected-total 0)
+              (badguys-killed 1)
+            )
+            (solved #t)
           )
           ("boss4.stl"
             (perfect #f)
