@@ -179,7 +179,7 @@
     )
     (addon
       (id "niso-yetis-revenge")
-      (enabled #t)
+      (enabled #f)
     )
     (addon
       (id "octo-levels")
